@@ -1,4 +1,4 @@
-(pcb freerouting.dsn
+(pcb "C:\Users\JimroidZeus\source\repos\alice-split\alice-split\temp-freerouting.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
