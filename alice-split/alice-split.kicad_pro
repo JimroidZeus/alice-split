@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|-324746000|117332000|9d4f7ea1-bc4c-42e3-aac3-7075f747df89|4e0f204e-be02-460d-a77e-42e8f70c4507",
+          ""
+        ],
+        [
+          "hole_clearance|-333846000|117332000|a938c4e6-e3e4-4726-a9d3-090015b0447e|958533ca-b927-4afe-9fe2-cb995fa4ec00",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -137,7 +146,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.5,
         "min_track_width": 0.5,
-        "min_via_annular_width": 0.4,
+        "min_via_annular_width": 0.0,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
