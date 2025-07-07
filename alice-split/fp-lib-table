@@ -1,8 +1,8 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Keebio-Parts")(type "KiCad")(uri "C:/Users/JimroidZeus/source/repos/SofleKeyboard/footprints/Keebio-Parts.pretty")(options "")(descr ""))
-  (lib (name "MX_Alps_Hybrid")(type "KiCad")(uri "C:/Users/JimroidZeus/source/repos/SofleKeyboard/footprints/MX_Alps_Hybrid")(options "")(descr ""))
-  (lib (name "SofleKeyboard-footprint")(type "KiCad")(uri "C:/Users/JimroidZeus/source/repos/SofleKeyboard/footprints/SofleKeyboard-footprint.pretty")(options "")(descr ""))
-  (lib (name "SofleRGB")(type "KiCad")(uri "C:/Users/JimroidZeus/source/repos/SofleKeyboard/Sofle_RGB/PCB/SofleRGB.pretty")(options "")(descr ""))
-  (lib (name "random-keyboard-parts")(type "KiCad")(uri "C:/Users/JimroidZeus/source/repos/alice-split/random-keyboard-parts.pretty")(options "")(descr ""))
+  (lib (name "Keebio-Parts")(type "KiCad")(uri "${KICAD_PROJECT_DIR}/Keebio-Parts.pretty")(options "")(descr ""))
+  (lib (name "MX_Alps_Hybrid")(type "KiCad")(uri "${KICAD_PROJECT_DIR}/MX_Alps_Hybrid")(options "")(descr ""))
+  (lib (name "SofleKeyboard-footprint")(type "KiCad")(uri "${KICAD_PROJECT_DIR}/../SofleKeyboard/footprints/SofleKeyboard-footprint.pretty")(options "")(descr ""))
+  (lib (name "SofleRGB")(type "KiCad")(uri "${KICAD_PROJECT_DIR}/../SofleKeyboard/Sofle_RGB/PCB/SofleRGB.pretty")(options "")(descr ""))
+  (lib (name "random-keyboard-parts")(type "KiCad")(uri "${KICAD_PROJECT_DIR}/random-keyboard-parts.pretty")(options "")(descr ""))
 )
