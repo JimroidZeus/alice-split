@@ -7,3 +7,6 @@
 [submodule "kicad-lib-arduino"]
 	path = kicad-lib-arduino
 	url = https://github.com/g200kg/kicad-lib-arduino
+[submodule "Keebio-Parts.pretty"]
+	path = Keebio-Parts.pretty
+	url = git@github.com:keebio/Keebio-Parts.pretty.git
