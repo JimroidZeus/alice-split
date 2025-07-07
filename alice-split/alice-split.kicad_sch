@@ -5,514 +5,6 @@
 	(uuid "bb4d8238-ce23-40f3-a858-bd67b0639c88")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Arduino:Sparkfun_Pro_Micro"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 21.59 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "Sparkfun_Pro_Micro"
-				(at 0 19.05 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Arduino:Sparkfun_Pro_Micro"
-				(at 0 -16.51 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.sparkfun.com/products/12640"
-				(at 2.54 -26.67 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Sparkfun Pro Micro"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Arduino Sparkfun pro micro microcontroller module USB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Sparkfun_Pro_Micro_0_1"
-				(rectangle
-					(start -10.16 17.78)
-					(end 10.16 -15.24)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "Sparkfun_Pro_Micro_1_1"
-				(pin bidirectional line
-					(at -15.24 15.24 0)
-					(length 5.08)
-					(name "D1/TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 12.7 0)
-					(length 5.08)
-					(name "D0/RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 10.16 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -15.24 7.62 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 5.08 0)
-					(length 5.08)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 2.54 0)
-					(length 5.08)
-					(name "~D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 0 0)
-					(length 5.08)
-					(name "D4/A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -2.54 0)
-					(length 5.08)
-					(name "~D5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -5.08 0)
-					(length 5.08)
-					(name "~D6/A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -7.62 0)
-					(length 5.08)
-					(name "D7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -10.16 0)
-					(length 5.08)
-					(name "D8/A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -12.7 0)
-					(length 5.08)
-					(name "~D9/A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(name "RAW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 12.7 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 10.16 180)
-					(length 5.08)
-					(name "RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 5.08 180)
-					(length 5.08)
-					(name "D21/A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "D20/A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "D19/A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "D18/A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -5.08 180)
-					(length 5.08)
-					(name "D15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -7.62 180)
-					(length 5.08)
-					(name "D14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -10.16 180)
-					(length 5.08)
-					(name "D16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -12.7 180)
-					(length 5.08)
-					(name "~D10/A10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Small"
 			(pin_numbers
 				(hide yes)
@@ -1562,6 +1054,696 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SofleKeyboard-rescue:OLED-Lily58-cache"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OLED-Lily58-cache"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin_Header_Straight_1X04 Pin_Header_Angled_1X04 Socket_Strip_Straight_1X04 Socket_Strip_Angled_1X04"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "OLED-Lily58-cache_0_1"
+				(rectangle
+					(start -1.27 5.08)
+					(end 1.27 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.937)
+					(end 0.254 3.683)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.397)
+					(end 0.254 1.143)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -1.143)
+					(end 0.254 -1.397)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -3.683)
+					(end 0.254 -3.937)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "OLED-Lily58-cache_1_1"
+				(pin passive line
+					(at -5.08 3.81 0)
+					(length 3.81)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 3.81)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 3.81)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 3.81)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SofleKeyboard-rescue:ProMicro_2-Lily58-cache-Lily58_Pro-rescue"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ProMicro_2-Lily58-cache-Lily58_Pro-rescue"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ProMicro_2-Lily58-cache-Lily58_Pro-rescue_0_1"
+				(rectangle
+					(start -11.43 16.51)
+					(end 11.43 -16.51)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ProMicro_2-Lily58-cache-Lily58_Pro-rescue_1_1"
+				(pin input line
+					(at -16.51 13.97 0)
+					(length 5.08)
+					(name "TX(PD3)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 11.43 0)
+					(length 5.08)
+					(name "RX(PD2)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 8.89 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 3.81 0)
+					(length 5.08)
+					(name "SDA(PD1)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 1.27 0)
+					(length 5.08)
+					(name "SCL(PD0)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -1.27 0)
+					(length 5.08)
+					(name "D4(PD4)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -3.81 0)
+					(length 5.08)
+					(name "D5(PC6)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -6.35 0)
+					(length 5.08)
+					(name "D6(PD7)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -8.89 0)
+					(length 5.08)
+					(name "D7(PE6)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -11.43 0)
+					(length 5.08)
+					(name "D8(PB4)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -13.97 0)
+					(length 5.08)
+					(name "D9(PB5)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 13.97 180)
+					(length 5.08)
+					(name "RAW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 11.43 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 8.89 180)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 6.35 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 3.81 180)
+					(length 5.08)
+					(name "A3(PF4)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 1.27 180)
+					(length 5.08)
+					(name "A2(PF5)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -1.27 180)
+					(length 5.08)
+					(name "A1(PF6)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -3.81 180)
+					(length 5.08)
+					(name "A0(PF7)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -6.35 180)
+					(length 5.08)
+					(name "D15(PB1)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -8.89 180)
+					(length 5.08)
+					(name "D14(PB3)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -11.43 180)
+					(length 5.08)
+					(name "D16(PB2)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -13.97 180)
+					(length 5.08)
+					(name "D10(PB6)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SofleKeyboard:LED_sk2812_SM"
 			(pin_names
 				(offset 1.016)
@@ -2032,12 +2214,6 @@
 		(uuid "013103d5-3ef2-4c79-bcd8-6a8e021bfaf3")
 	)
 	(junction
-		(at 57.15 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03431376-d04e-4fdc-a35d-1b989e4511c9")
-	)
-	(junction
 		(at 257.81 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2134,13 +2310,13 @@
 		(uuid "24433a4f-f480-4fc3-8fda-7b8a4abaaa73")
 	)
 	(junction
-		(at 59.69 83.82)
+		(at 77.47 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24837c85-34a2-4fd3-ad70-eb3dc470bb88")
 	)
 	(junction
-		(at 41.91 83.82)
+		(at 59.69 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "292eff9d-3485-4ccd-97a7-1b7c9f9f8794")
@@ -2158,12 +2334,6 @@
 		(uuid "2d1f2389-fc59-4d10-bcb8-7a9f7d18a2ab")
 	)
 	(junction
-		(at 128.27 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "309cfc15-29a9-459f-9cec-919c06374852")
-	)
-	(junction
 		(at 146.05 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2174,6 +2344,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "335d8cec-4e6a-4ac2-82d8-3a9ad18c2821")
+	)
+	(junction
+		(at 146.05 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "356d30a5-e568-4966-a24a-3b5ac3423df5")
 	)
 	(junction
 		(at 212.09 54.61)
@@ -2188,7 +2364,13 @@
 		(uuid "3e0830f8-62ce-48bc-b287-20ce396b2f6e")
 	)
 	(junction
-		(at 41.91 99.06)
+		(at 146.05 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e0e953e-3fc4-491e-beb3-9704573e7536")
+	)
+	(junction
+		(at 59.69 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e2b1c4a-0d8f-4aca-b6ef-e46c6944c690")
@@ -2200,7 +2382,7 @@
 		(uuid "40d7f8b4-9942-42ca-8988-1ceced29839b")
 	)
 	(junction
-		(at 59.69 99.06)
+		(at 77.47 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4187de3a-4dd5-4932-a7ec-632df3955518")
@@ -2218,13 +2400,13 @@
 		(uuid "4887d561-2aa4-4fbc-915d-6698da9985b6")
 	)
 	(junction
-		(at 95.25 68.58)
+		(at 113.03 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4896cf91-ab61-463c-af22-96f2b221c1d6")
 	)
 	(junction
-		(at 113.03 83.82)
+		(at 130.81 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48a4e708-8593-40cf-a349-71e168b25aa7")
@@ -2248,16 +2430,10 @@
 		(uuid "4ac1100f-73e3-458a-a617-1592905a7045")
 	)
 	(junction
-		(at 39.37 76.2)
+		(at 110.49 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4e578073-d3f4-40b2-8a9a-3d5944fd8fed")
-	)
-	(junction
-		(at 130.81 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f46569a-8a05-433a-b5af-ea5417973382")
+		(uuid "4e3799be-868d-49dc-aac0-95d9d50a6018")
 	)
 	(junction
 		(at 246.38 71.12)
@@ -2296,7 +2472,7 @@
 		(uuid "5d791c9d-a836-4580-9186-52cfed0dc30c")
 	)
 	(junction
-		(at 59.69 68.58)
+		(at 77.47 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e39ddd8-f690-44de-a65d-cc0ed434c459")
@@ -2338,12 +2514,6 @@
 		(uuid "776dfecd-d673-484c-bff8-fc385472ab10")
 	)
 	(junction
-		(at 130.81 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77dbb851-338b-427d-86a0-6ecc0e0c2bfb")
-	)
-	(junction
 		(at 280.67 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2368,6 +2538,12 @@
 		(uuid "842fa7a5-c04d-412c-9c5b-745c1211ce1d")
 	)
 	(junction
+		(at 148.59 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8953626e-1ac2-4724-8c8b-a8354c2302bc")
+	)
+	(junction
 		(at 246.38 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2386,16 +2562,10 @@
 		(uuid "8eba53b4-bb6a-4483-8776-0428365eaa14")
 	)
 	(junction
-		(at 24.13 45.72)
+		(at 95.25 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91743511-ec28-4bf9-be08-477a376d3e8f")
-	)
-	(junction
-		(at 39.37 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "917e015a-eb95-4521-9cb9-99c57735129c")
+		(uuid "90e8b3da-8597-4e74-9539-526351f7c171")
 	)
 	(junction
 		(at 92.71 91.44)
@@ -2410,13 +2580,19 @@
 		(uuid "95056d1e-e59c-4cad-a610-e09ec5af5bdd")
 	)
 	(junction
-		(at 41.91 68.58)
+		(at 41.91 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98e0c35a-a088-4835-8897-dced4ee37cbc")
+	)
+	(junction
+		(at 59.69 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "994ab4d7-007f-4e17-8967-da918be0042c")
 	)
 	(junction
-		(at 95.25 83.82)
+		(at 113.03 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99d48e04-ab85-4ec5-8459-a483e1d67297")
@@ -2446,7 +2622,7 @@
 		(uuid "a60e9c64-2dd4-4b0c-b54d-14cf8b653009")
 	)
 	(junction
-		(at 77.47 83.82)
+		(at 95.25 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad15d96e-5f47-4d5d-92a2-bbfe5de45620")
@@ -2458,7 +2634,7 @@
 		(uuid "ae05788e-ea80-417e-9343-d66ae9266645")
 	)
 	(junction
-		(at 24.13 68.58)
+		(at 41.91 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af0ba59a-7ba5-4f66-a562-0700bafd874a")
@@ -2470,22 +2646,10 @@
 		(uuid "af5c09b8-7f4c-4549-8eaf-2348daebac30")
 	)
 	(junction
-		(at 130.81 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1d29dcb-ad34-489f-a302-260183108540")
-	)
-	(junction
 		(at 232.41 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b576b78c-a47d-447e-978b-516a6fbdced6")
-	)
-	(junction
-		(at 39.37 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5a30238-be19-481b-8416-a61a9ae231cf")
 	)
 	(junction
 		(at 74.93 91.44)
@@ -2494,13 +2658,7 @@
 		(uuid "b86dfec0-4de3-4d21-99ed-3a030e38a139")
 	)
 	(junction
-		(at 77.47 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8ff83b6-bb1d-42eb-8104-2ee45131e416")
-	)
-	(junction
-		(at 113.03 68.58)
+		(at 130.81 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbb8c3e8-b4b2-4398-9fc8-cb0fd1033997")
@@ -2548,6 +2706,12 @@
 		(uuid "c636afa0-7242-4b96-83f1-7c4d8e6f4a3f")
 	)
 	(junction
+		(at 146.05 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c69ebeb0-094e-4b42-b4ac-1d991a05cb13")
+	)
+	(junction
 		(at 190.5 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2558,6 +2722,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c921e107-329b-4779-906c-0a45787960ef")
+	)
+	(junction
+		(at 146.05 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c950fe09-8567-4bed-a094-3df95c8dbb55")
 	)
 	(junction
 		(at 201.93 57.15)
@@ -2578,7 +2748,13 @@
 		(uuid "d1cc7339-8cf8-4387-afbe-e9c84c3ebaf7")
 	)
 	(junction
-		(at 77.47 68.58)
+		(at 148.59 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2fa88d2-ad7a-4d3a-bdfe-850561d60fcf")
+	)
+	(junction
+		(at 95.25 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d82e81ee-817f-41f6-b9dd-c50fd74561c5")
@@ -2632,6 +2808,12 @@
 		(uuid "e16f56dc-1892-44f0-bc21-944dde3851b6")
 	)
 	(junction
+		(at 148.59 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4989cb7-d6e2-4c9f-981e-c180c76431d2")
+	)
+	(junction
 		(at 243.84 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2662,12 +2844,6 @@
 		(uuid "eb608712-d544-43af-b4fd-3529e0f699f3")
 	)
 	(junction
-		(at 57.15 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec5f0d67-f810-4bf3-85ae-4065ddb13b1b")
-	)
-	(junction
 		(at 74.93 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2686,7 +2862,7 @@
 		(uuid "f167206d-b52f-4601-a27e-a1ac397cb78a")
 	)
 	(junction
-		(at 113.03 99.06)
+		(at 130.81 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f19467e6-9d14-485d-a906-bca4714a3f95")
@@ -2710,10 +2886,22 @@
 		(uuid "f43c74cd-e677-4820-bec8-ba035200aca5")
 	)
 	(junction
+		(at 148.59 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8f0e620-9381-429e-b3f6-83d7b361be68")
+	)
+	(junction
 		(at 128.27 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9014b93-d00b-45ab-ad37-1b1ac636ce2f")
+	)
+	(junction
+		(at 57.15 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faf79d4e-129c-47f3-8ddb-af060480d597")
 	)
 	(junction
 		(at 95.25 52.07)
@@ -2779,23 +2967,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 54.61) (xy 39.37 49.53)
+			(xy 57.15 118.11) (xy 57.15 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "01ff2e29-af41-4d33-9d37-91083496dd57")
-	)
-	(wire
-		(pts
-			(xy 24.13 68.58) (xy 24.13 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "037ecf0c-822b-4f46-9831-83627f363617")
 	)
 	(wire
 		(pts
@@ -2839,7 +3017,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 76.2) (xy 39.37 76.2)
+			(xy 21.59 76.2) (xy 57.15 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2989,7 +3167,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 68.58) (xy 57.15 71.12)
+			(xy 74.93 68.58) (xy 74.93 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3019,7 +3197,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 99.06) (xy 92.71 101.6)
+			(xy 110.49 99.06) (xy 110.49 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3066,6 +3244,16 @@
 			(type default)
 		)
 		(uuid "1388c392-a502-4ef9-aa95-901156bc6dfa")
+	)
+	(wire
+		(pts
+			(xy 146.05 106.68) (xy 163.83 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13be8087-17d0-4724-a9ba-6624a3ca3123")
 	)
 	(wire
 		(pts
@@ -3149,7 +3337,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 68.58) (xy 74.93 71.12)
+			(xy 92.71 68.58) (xy 92.71 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3159,7 +3347,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 49.53) (xy 39.37 49.53)
+			(xy 53.34 113.03) (xy 57.15 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3259,16 +3447,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 45.72) (xy 24.13 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b76534c-332d-42a4-8037-4937ca7d2372")
-	)
-	(wire
-		(pts
 			(xy 198.12 49.53) (xy 196.85 49.53)
 		)
 		(stroke
@@ -3339,7 +3517,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 83.82) (xy 146.05 86.36)
+			(xy 163.83 83.82) (xy 163.83 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3369,7 +3547,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 83.82) (xy 128.27 86.36)
+			(xy 146.05 83.82) (xy 146.05 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3499,7 +3677,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 68.58) (xy 92.71 71.12)
+			(xy 110.49 68.58) (xy 110.49 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3559,7 +3737,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 83.82) (xy 41.91 99.06)
+			(xy 41.91 83.82) (xy 41.91 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3596,16 +3774,6 @@
 			(type default)
 		)
 		(uuid "3173226f-bdb7-41a0-aed6-2b1316e19f2b")
-	)
-	(wire
-		(pts
-			(xy 113.03 99.06) (xy 113.03 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "319d5ae0-7772-4d05-b79d-23216fa11dd2")
 	)
 	(wire
 		(pts
@@ -3679,6 +3847,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 52.07) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3877605b-d2c8-45f0-acd2-1994a8117474")
+	)
+	(wire
+		(pts
 			(xy 259.08 101.6) (xy 256.54 101.6)
 		)
 		(stroke
@@ -3696,16 +3874,6 @@
 			(type default)
 		)
 		(uuid "397efe7e-993b-41fe-882e-0cd80ab31820")
-	)
-	(wire
-		(pts
-			(xy 39.37 59.69) (xy 57.15 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3981ac28-bfeb-4bbf-9b55-f6a0eeead439")
 	)
 	(wire
 		(pts
@@ -3736,16 +3904,6 @@
 			(type default)
 		)
 		(uuid "3a671a7f-18cf-4ce6-a712-e425512e6296")
-	)
-	(wire
-		(pts
-			(xy 130.81 68.58) (xy 130.81 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ab4ada0-ac6a-4bb4-86ab-de22dfa0060a")
 	)
 	(wire
 		(pts
@@ -3829,7 +3987,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 115.57) (xy 74.93 118.11)
+			(xy 92.71 115.57) (xy 92.71 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3866,6 +4024,16 @@
 			(type default)
 		)
 		(uuid "43d0efca-bdf5-4636-9214-2c4c6bc5cca9")
+	)
+	(wire
+		(pts
+			(xy 219.71 144.78) (xy 227.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b8e42f-1976-419a-b2c7-19a5d294b2a0")
 	)
 	(wire
 		(pts
@@ -3959,7 +4127,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 45.72) (xy 24.13 45.72)
+			(xy 43.18 109.22) (xy 41.91 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3989,7 +4157,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 83.82) (xy 57.15 86.36)
+			(xy 74.93 83.82) (xy 74.93 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4019,7 +4187,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 115.57) (xy 146.05 118.11)
+			(xy 163.83 115.57) (xy 163.83 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4139,7 +4307,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 91.44) (xy 39.37 91.44)
+			(xy 21.59 91.44) (xy 57.15 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4259,7 +4427,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 99.06) (xy 128.27 101.6)
+			(xy 146.05 99.06) (xy 146.05 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4276,6 +4444,16 @@
 			(type default)
 		)
 		(uuid "66cbb9d4-9497-478f-96f9-4cd24addf9cf")
+	)
+	(wire
+		(pts
+			(xy 219.71 147.32) (xy 227.33 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670a4b2a-1432-4ad3-9237-0e2b120d9819")
 	)
 	(wire
 		(pts
@@ -4379,6 +4557,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 123.19) (xy 74.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6baf9c01-bc84-425b-a9cc-8de16b7a11fd")
+	)
+	(wire
+		(pts
 			(xy 229.87 82.55) (xy 229.87 76.2)
 		)
 		(stroke
@@ -4389,7 +4577,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 106.68) (xy 57.15 106.68)
+			(xy 21.59 106.68) (xy 74.93 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4406,6 +4594,16 @@
 			(type default)
 		)
 		(uuid "6df1e495-297e-4319-9727-19a2f8178219")
+	)
+	(wire
+		(pts
+			(xy 223.52 149.86) (xy 223.52 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f577a9a-3254-44c6-a059-11f446dedbb0")
 	)
 	(wire
 		(pts
@@ -4459,6 +4657,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 99.06) (xy 148.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72cdd2cf-3d93-4316-b652-3ef1c7d50742")
+	)
+	(wire
+		(pts
+			(xy 146.05 91.44) (xy 163.83 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740a4deb-487c-4e74-8be9-696103a6794a")
+	)
+	(wire
+		(pts
 			(xy 256.54 115.57) (xy 257.81 115.57)
 		)
 		(stroke
@@ -4489,7 +4707,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 68.58) (xy 128.27 71.12)
+			(xy 110.49 123.19) (xy 146.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f98e37-2edf-4002-83b6-1ec0c13afc49")
+	)
+	(wire
+		(pts
+			(xy 146.05 68.58) (xy 146.05 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4609,16 +4837,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 45.72) (xy 24.13 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bd96585-1b23-406a-bfa6-a20e364fc3ba")
-	)
-	(wire
-		(pts
 			(xy 273.05 90.17) (xy 273.05 85.09)
 		)
 		(stroke
@@ -4699,6 +4917,26 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 76.2) (xy 163.83 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814128c4-c4d2-463c-af2a-be3e01003be5")
+	)
+	(wire
+		(pts
+			(xy 227.33 152.4) (xy 227.33 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83383e09-07f5-4593-a5b0-b3a408bb5dc2")
+	)
+	(wire
+		(pts
 			(xy 228.6 82.55) (xy 229.87 82.55)
 		)
 		(stroke
@@ -4726,16 +4964,6 @@
 			(type default)
 		)
 		(uuid "84f8099b-0af5-4018-be39-2b2b9dffafc9")
-	)
-	(wire
-		(pts
-			(xy 39.37 91.44) (xy 57.15 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8559562d-8e5f-4e13-b6fe-ba9b31414ebf")
 	)
 	(wire
 		(pts
@@ -4776,16 +5004,6 @@
 			(type default)
 		)
 		(uuid "872a77da-9478-4a0c-954c-8c136f79b34a")
-	)
-	(wire
-		(pts
-			(xy 39.37 76.2) (xy 57.15 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8791fd73-052b-44d3-8e20-f62038029337")
 	)
 	(wire
 		(pts
@@ -4919,6 +5137,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 123.19) (xy 163.83 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb647ba-986c-4d6c-bb0d-4a917d8552ee")
+	)
+	(wire
+		(pts
 			(xy 193.04 35.56) (xy 195.58 35.56)
 		)
 		(stroke
@@ -4949,7 +5177,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 68.58) (xy 39.37 71.12)
+			(xy 57.15 68.58) (xy 57.15 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4999,7 +5227,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 83.82) (xy 130.81 68.58)
+			(xy 130.81 52.07) (xy 130.81 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5099,7 +5327,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 115.57) (xy 128.27 118.11)
+			(xy 146.05 115.57) (xy 146.05 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5149,7 +5377,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 115.57) (xy 57.15 118.11)
+			(xy 74.93 115.57) (xy 74.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5249,6 +5477,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 99.06) (xy 95.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d7a697-793b-497f-83c8-db277ff6fd22")
+	)
+	(wire
+		(pts
 			(xy 110.49 91.44) (xy 128.27 91.44)
 		)
 		(stroke
@@ -5256,6 +5494,16 @@
 			(type default)
 		)
 		(uuid "a9e70d33-637e-49b4-a5ce-e974fdb0fe0b")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 148.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca6f6fd-4c98-4c62-aac9-e9e5fc92fbc7")
 	)
 	(wire
 		(pts
@@ -5319,7 +5567,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 99.06) (xy 146.05 101.6)
+			(xy 163.83 99.06) (xy 163.83 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5549,7 +5797,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 123.19) (xy 128.27 123.19)
+			(xy 92.71 123.19) (xy 110.49 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5566,6 +5814,16 @@
 			(type default)
 		)
 		(uuid "bb1f7e41-7a03-4b3f-a343-50a6169d9412")
+	)
+	(wire
+		(pts
+			(xy 148.59 68.58) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc0a25a0-a7dd-4a8d-937a-c2d8d8918c69")
 	)
 	(wire
 		(pts
@@ -5659,7 +5917,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 99.06) (xy 74.93 101.6)
+			(xy 92.71 99.06) (xy 92.71 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5769,7 +6027,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 83.82) (xy 110.49 86.36)
+			(xy 128.27 83.82) (xy 128.27 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5779,7 +6037,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 99.06) (xy 57.15 101.6)
+			(xy 74.93 99.06) (xy 74.93 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5929,7 +6187,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 115.57) (xy 92.71 118.11)
+			(xy 110.49 115.57) (xy 110.49 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5959,7 +6217,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 99.06) (xy 110.49 101.6)
+			(xy 128.27 99.06) (xy 128.27 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6119,7 +6377,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 83.82) (xy 74.93 86.36)
+			(xy 92.71 83.82) (xy 92.71 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6199,16 +6457,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 99.06) (xy 41.91 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e13dc894-b97d-4b34-8169-0f0736536f59")
-	)
-	(wire
-		(pts
 			(xy 242.57 115.57) (xy 243.84 115.57)
 		)
 		(stroke
@@ -6226,6 +6474,16 @@
 			(type default)
 		)
 		(uuid "e2063c4a-1ef9-45ff-8675-1359f95aba07")
+	)
+	(wire
+		(pts
+			(xy 227.33 149.86) (xy 223.52 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e25ff7d7-ca59-4ff5-89e7-4f01782d3def")
 	)
 	(wire
 		(pts
@@ -6269,16 +6527,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 123.19) (xy 74.93 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e43f6d12-540c-427a-a7c3-5ffd5ac436a4")
-	)
-	(wire
-		(pts
 			(xy 254 54.61) (xy 267.97 54.61)
 		)
 		(stroke
@@ -6309,7 +6557,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 59.69) (xy 39.37 59.69)
+			(xy 21.59 59.69) (xy 57.15 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6399,16 +6647,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 123.19) (xy 146.05 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec6175a3-5d65-4ca8-a52f-ea6b638f74fc")
-	)
-	(wire
-		(pts
 			(xy 59.69 52.07) (xy 59.69 68.58)
 		)
 		(stroke
@@ -6416,16 +6654,6 @@
 			(type default)
 		)
 		(uuid "ec99c9c9-e15d-4158-8e2f-6a0df1cd842b")
-	)
-	(wire
-		(pts
-			(xy 57.15 106.68) (xy 74.93 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecfb133d-9dd4-41f7-9825-a52d81469c58")
 	)
 	(wire
 		(pts
@@ -6449,7 +6677,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 83.82) (xy 39.37 86.36)
+			(xy 57.15 83.82) (xy 57.15 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6479,7 +6707,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 68.58) (xy 146.05 71.12)
+			(xy 163.83 68.58) (xy 163.83 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6519,7 +6747,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 83.82) (xy 92.71 86.36)
+			(xy 110.49 83.82) (xy 110.49 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6649,6 +6877,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 68.58) (xy 130.81 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a86db4-d266-4e23-9533-097afd318e17")
+	)
+	(wire
+		(pts
 			(xy 245.11 82.55) (xy 245.11 85.09)
 		)
 		(stroke
@@ -6729,7 +6967,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 68.58) (xy 110.49 71.12)
+			(xy 128.27 68.58) (xy 128.27 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6797,7 +7035,7 @@
 		)
 		(uuid "ffb7f077-7338-435e-9cae-68e9b7925a77")
 	)
-	(global_label "COL12"
+	(global_label "COL4"
 		(shape input)
 		(at 77.47 24.13 90)
 		(fields_autoplaced yes)
@@ -6809,7 +7047,7 @@
 		)
 		(uuid "06101c7e-33ab-4793-be56-1187c6104074")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 15.0972 90)
+			(at 77.47 16.3067 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,7 +7059,7 @@
 	)
 	(global_label "ENC_S1"
 		(shape input)
-		(at 25.4 45.72 0)
+		(at 43.18 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6831,29 +7069,7 @@
 		)
 		(uuid "0c72122a-a27f-4b65-b568-440375854505")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.5213 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL15"
-		(shape input)
-		(at 105.41 179.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c190cad-9196-442d-9c5b-aa4ddfb57e6b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.4428 179.07 0)
+			(at 53.3013 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +7103,7 @@
 	)
 	(global_label "ROW1"
 		(shape input)
-		(at 74.93 163.83 180)
+		(at 74.93 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6897,7 +7113,7 @@
 		)
 		(uuid "2a1f9f38-3313-41d4-aef4-1de35a8988fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.6834 163.83 0)
+			(at 66.6834 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6931,7 +7147,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 105.41 158.75 0)
+		(at 107.95 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6941,7 +7157,7 @@
 		)
 		(uuid "315263e8-7bed-4f5d-b2d8-839308e4944a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.0238 158.75 0)
+			(at 114.5638 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,7 +7167,7 @@
 			)
 		)
 	)
-	(global_label "COL11"
+	(global_label "COL3"
 		(shape input)
 		(at 95.25 24.13 90)
 		(fields_autoplaced yes)
@@ -6963,7 +7179,7 @@
 		)
 		(uuid "32f11fa1-f865-47ad-84c4-f6eb6a778df2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 15.0972 90)
+			(at 95.25 16.3067 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6997,7 +7213,7 @@
 	)
 	(global_label "ENC_S2"
 		(shape input)
-		(at 35.56 49.53 180)
+		(at 53.34 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7007,7 +7223,7 @@
 		)
 		(uuid "3677b05d-f49c-44de-93ae-e30794b01b8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4387 49.53 0)
+			(at 43.2187 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7039,7 +7255,7 @@
 			)
 		)
 	)
-	(global_label "COL14"
+	(global_label "COL6"
 		(shape input)
 		(at 41.91 24.13 90)
 		(fields_autoplaced yes)
@@ -7051,7 +7267,7 @@
 		)
 		(uuid "3b2f3c2a-410c-4f00-9cc8-5b3cd8772551")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 15.0972 90)
+			(at 41.91 16.3067 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,22 +7301,22 @@
 	)
 	(global_label "ENCA"
 		(shape input)
-		(at 74.93 176.53 180)
+		(at 107.95 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3d6506a4-f490-4f82-8483-399721653f47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.1067 176.53 0)
+			(at 115.7733 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7149,9 +7365,9 @@
 			)
 		)
 	)
-	(global_label "COL10"
+	(global_label "COL2"
 		(shape input)
-		(at 105.41 166.37 0)
+		(at 107.95 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7161,7 +7377,7 @@
 		)
 		(uuid "434dc975-d7bf-4edb-8770-03c9a5d0f080")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.2333 166.37 0)
+			(at 115.7733 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7195,7 +7411,7 @@
 	)
 	(global_label "ROW0"
 		(shape input)
-		(at 74.93 161.29 180)
+		(at 74.93 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7205,7 +7421,7 @@
 		)
 		(uuid "4b44d3a9-0233-4de6-aca9-f8122d29ba32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.6834 161.29 0)
+			(at 66.6834 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,7 +7477,7 @@
 	)
 	(global_label "ROW3"
 		(shape input)
-		(at 74.93 168.91 180)
+		(at 74.93 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7271,7 +7487,7 @@
 		)
 		(uuid "508423d6-1a35-4a9b-8610-d21d61fea44c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.6834 168.91 0)
+			(at 66.6834 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7303,9 +7519,31 @@
 			)
 		)
 	)
-	(global_label "COL12"
+	(global_label "SDA"
 		(shape input)
-		(at 105.41 171.45 0)
+		(at 74.93 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "549967d8-7d3a-4c54-817b-6dfd3c53324f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.3767 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 107.95 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7315,7 +7553,7 @@
 		)
 		(uuid "56275db3-fd76-49ab-9002-2f184b850d29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.4428 171.45 0)
+			(at 115.7733 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,7 +7587,7 @@
 	)
 	(global_label "ROW2"
 		(shape input)
-		(at 74.93 166.37 180)
+		(at 74.93 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7359,7 +7597,7 @@
 		)
 		(uuid "59d2aba1-6cc1-4b44-a8e8-92b828db0e9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.6834 166.37 0)
+			(at 66.6834 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7415,6 +7653,28 @@
 	)
 	(global_label "SDA"
 		(shape input)
+		(at 219.71 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f8448e9-11f2-437a-a1d3-0d8950af7f6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.1567 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
 		(at 133.35 176.53 270)
 		(fields_autoplaced yes)
 		(effects
@@ -7437,7 +7697,7 @@
 	)
 	(global_label "ROW4"
 		(shape input)
-		(at 74.93 171.45 180)
+		(at 74.93 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7447,7 +7707,7 @@
 		)
 		(uuid "64cfaa61-2d8a-4c9a-b09c-ccb76c3c896c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.6834 171.45 0)
+			(at 66.6834 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,9 +7739,31 @@
 			)
 		)
 	)
-	(global_label "COL9"
+	(global_label "VCC"
 		(shape input)
-		(at 105.41 163.83 0)
+		(at 223.52 156.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6dd4a0be-1364-4442-a639-bb3b7aa46ef2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.52 162.8238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 107.95 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7491,12 +7773,34 @@
 		)
 		(uuid "6ec37039-c862-4e86-9ab7-188186982782")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.2333 163.83 0)
+			(at 115.7733 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 219.71 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73563c9b-ae58-4b58-94ae-e7565ffa5c7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.2172 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7567,9 +7871,9 @@
 			)
 		)
 	)
-	(global_label "COL14"
+	(global_label "COL6"
 		(shape input)
-		(at 105.41 176.53 0)
+		(at 107.95 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7579,7 +7883,7 @@
 		)
 		(uuid "7b924fea-fd62-4e10-b047-9b448f704028")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.4428 176.53 0)
+			(at 115.7733 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,7 +7915,7 @@
 			)
 		)
 	)
-	(global_label "COL13"
+	(global_label "COL5"
 		(shape input)
 		(at 59.69 24.13 90)
 		(fields_autoplaced yes)
@@ -7623,7 +7927,7 @@
 		)
 		(uuid "8c91aba1-1842-4460-a782-81563037539f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.69 15.0972 90)
+			(at 59.69 16.3067 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7633,9 +7937,9 @@
 			)
 		)
 	)
-	(global_label "COL13"
+	(global_label "COL5"
 		(shape input)
-		(at 105.41 173.99 0)
+		(at 107.95 176.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7645,7 +7949,7 @@
 		)
 		(uuid "8daff212-fd39-4ac9-94e8-f90a020b2075")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.4428 173.99 0)
+			(at 115.7733 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,7 +7961,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 105.41 156.21 0)
+		(at 107.95 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7667,7 +7971,7 @@
 		)
 		(uuid "9405e635-9442-4205-8c47-07af153acbe8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.1403 156.21 0)
+			(at 116.6803 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,9 +7981,9 @@
 			)
 		)
 	)
-	(global_label "COL8"
+	(global_label "COL0"
 		(shape input)
-		(at 105.41 161.29 0)
+		(at 107.95 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7689,7 +7993,7 @@
 		)
 		(uuid "98bf10be-dd7f-494d-99d7-22bee8859ee3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.2333 161.29 0)
+			(at 115.7733 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7721,7 +8025,7 @@
 			)
 		)
 	)
-	(global_label "COL8"
+	(global_label "COL0"
 		(shape input)
 		(at 148.59 22.86 90)
 		(fields_autoplaced yes)
@@ -7739,6 +8043,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 219.71 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a588c233-0534-4535-ac4d-31a6e10d7907")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.1567 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7767,7 +8093,7 @@
 	)
 	(global_label "VDD"
 		(shape input)
-		(at 105.41 153.67 0)
+		(at 107.95 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7777,7 +8103,7 @@
 		)
 		(uuid "b270d4c0-6c89-4827-a834-d985f87a5d08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.0238 153.67 0)
+			(at 114.5638 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,29 +8179,7 @@
 			)
 		)
 	)
-	(global_label "COL15"
-		(shape input)
-		(at 24.13 24.13 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c365c42b-8cc2-4ae8-a0a0-1c383c7115bb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.13 15.0972 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL9"
+	(global_label "COL1"
 		(shape input)
 		(at 130.81 22.86 90)
 		(fields_autoplaced yes)
@@ -7893,6 +8197,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 219.71 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d21640e7-f96f-4b02-afa3-aca566df17a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.2172 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7919,9 +8245,31 @@
 			)
 		)
 	)
-	(global_label "COL11"
+	(global_label "SCL"
 		(shape input)
-		(at 105.41 168.91 0)
+		(at 74.93 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d79c63a8-0387-4fcb-a5f5-d3995fd76239")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.4372 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 107.95 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7931,7 +8279,7 @@
 		)
 		(uuid "dbeb04dc-4d50-4103-a669-9ef1d23a11cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.4428 168.91 0)
+			(at 115.7733 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7963,7 +8311,29 @@
 			)
 		)
 	)
-	(global_label "COL10"
+	(global_label "VDD"
+		(shape input)
+		(at 227.33 156.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e47235b9-a947-4507-8c2a-626deb448545")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 162.8238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
 		(shape input)
 		(at 113.03 24.13 90)
 		(fields_autoplaced yes)
@@ -7975,7 +8345,7 @@
 		)
 		(uuid "f5a7a527-13d7-45e4-9672-4e35e50e0649")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 15.0972 90)
+			(at 113.03 16.3067 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8067,7 +8437,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 120.65 83.82 0)
+		(at 138.43 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8076,7 +8446,7 @@
 		(fields_autoplaced yes)
 		(uuid "02068a2a-861e-43b8-88f0-90775dabb610")
 		(property "Reference" "SW_F8"
-			(at 120.65 77.47 0)
+			(at 138.43 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8084,7 +8454,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 120.65 80.01 0)
+			(at 138.43 80.01 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -8092,7 +8462,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 120.65 80.01 0)
+			(at 138.43 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8101,7 +8471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 80.01 0)
+			(at 138.43 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +8480,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 83.82 0)
+			(at 138.43 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +8853,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 128.27 120.65 90)
+		(at 146.05 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8492,7 +8862,7 @@
 		(fields_autoplaced yes)
 		(uuid "059b4516-057e-4434-b36a-4ef80f44997b")
 		(property "Reference" "D36"
-			(at 130.81 119.3799 90)
+			(at 148.59 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,7 +8871,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 130.81 121.9199 90)
+			(at 148.59 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8510,7 +8880,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 128.27 120.65 90)
+			(at 146.05 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,7 +8889,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 120.65 90)
+			(at 146.05 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8528,7 +8898,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 128.27 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8537,7 +8907,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 128.27 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8546,7 +8916,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 128.27 120.65 0)
+			(at 146.05 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8571,7 +8941,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 138.43 68.58 0)
+		(at 156.21 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8580,7 +8950,7 @@
 		(fields_autoplaced yes)
 		(uuid "0687b289-0bbe-412f-9138-4696e9acd461")
 		(property "Reference" "SW_T1"
-			(at 138.43 62.23 0)
+			(at 156.21 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +8958,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 138.43 64.77 0)
+			(at 156.21 64.77 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -8596,7 +8966,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 138.43 64.77 0)
+			(at 156.21 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8605,7 +8975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 64.77 0)
+			(at 156.21 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +8984,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 68.58 0)
+			(at 156.21 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8651,7 +9021,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 31.75 68.58 0)
+		(at 49.53 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8660,7 +9030,7 @@
 		(fields_autoplaced yes)
 		(uuid "07dcccb0-0ea9-4447-9f74-5f36fcc70d80")
 		(property "Reference" "SW_M1"
-			(at 31.75 62.23 0)
+			(at 49.53 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8668,7 +9038,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 31.75 64.77 0)
+			(at 49.53 64.77 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -8676,7 +9046,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 31.75 64.77 0)
+			(at 49.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8685,7 +9055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 64.77 0)
+			(at 49.53 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8694,7 +9064,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 68.58 0)
+			(at 49.53 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +9101,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 146.05 73.66 90)
+		(at 163.83 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8740,7 +9110,7 @@
 		(fields_autoplaced yes)
 		(uuid "08351b72-6ca5-4b8e-a98d-2dcbef19e93f")
 		(property "Reference" "D20"
-			(at 148.59 72.3899 90)
+			(at 166.37 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,7 +9119,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 148.59 74.9299 90)
+			(at 166.37 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8758,7 +9128,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 146.05 73.66 90)
+			(at 163.83 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8767,7 +9137,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 73.66 90)
+			(at 163.83 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8776,7 +9146,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 146.05 73.66 0)
+			(at 163.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8785,7 +9155,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 146.05 73.66 0)
+			(at 163.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +9164,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 73.66 0)
+			(at 163.83 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8819,7 +9189,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 74.93 120.65 90)
+		(at 92.71 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8828,7 +9198,7 @@
 		(fields_autoplaced yes)
 		(uuid "0993cb6b-5a0d-4570-9e37-ad4c8647eb53")
 		(property "Reference" "D34"
-			(at 77.47 119.3799 90)
+			(at 95.25 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8837,7 +9207,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 77.47 121.9199 90)
+			(at 95.25 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8846,7 +9216,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 74.93 120.65 90)
+			(at 92.71 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8855,7 +9225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 120.65 90)
+			(at 92.71 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8864,7 +9234,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 74.93 120.65 0)
+			(at 92.71 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8873,7 +9243,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 74.93 120.65 0)
+			(at 92.71 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8882,7 +9252,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 74.93 120.65 0)
+			(at 92.71 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9067,7 +9437,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 74.93 104.14 90)
+		(at 92.71 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9076,7 +9446,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c0f2bd6-355f-4d07-922a-e13ffe09e3be")
 		(property "Reference" "D28"
-			(at 77.47 102.8699 90)
+			(at 95.25 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9085,7 +9455,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 77.47 105.4099 90)
+			(at 95.25 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9094,7 +9464,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 74.93 104.14 90)
+			(at 92.71 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9103,7 +9473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 104.14 90)
+			(at 92.71 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9112,7 +9482,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 74.93 104.14 0)
+			(at 92.71 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9121,7 +9491,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 74.93 104.14 0)
+			(at 92.71 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9130,7 +9500,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 74.93 104.14 0)
+			(at 92.71 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9483,7 +9853,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 110.49 104.14 90)
+		(at 128.27 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9492,7 +9862,7 @@
 		(fields_autoplaced yes)
 		(uuid "0eadd6ea-8096-4ef0-8a26-da5159d77e68")
 		(property "Reference" "D30"
-			(at 113.03 102.8699 90)
+			(at 130.81 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9501,7 +9871,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 113.03 105.4099 90)
+			(at 130.81 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9510,7 +9880,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 110.49 104.14 90)
+			(at 128.27 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9519,7 +9889,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 104.14 90)
+			(at 128.27 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9528,7 +9898,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 110.49 104.14 0)
+			(at 128.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9537,7 +9907,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 110.49 104.14 0)
+			(at 128.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9546,7 +9916,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 110.49 104.14 0)
+			(at 128.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9971,7 +10341,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 85.09 115.57 0)
+		(at 102.87 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9980,7 +10350,7 @@
 		(fields_autoplaced yes)
 		(uuid "17983189-560e-4a45-a2e6-200319661604")
 		(property "Reference" "SW_MOD_L1"
-			(at 85.09 109.22 0)
+			(at 102.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9988,7 +10358,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 85.09 111.76 0)
+			(at 102.87 111.76 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -9996,7 +10366,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 85.09 111.76 0)
+			(at 102.87 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10005,7 +10375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 111.76 0)
+			(at 102.87 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10014,7 +10384,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 115.57 0)
+			(at 102.87 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10211,7 +10581,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 39.37 88.9 90)
+		(at 57.15 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10220,7 +10590,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a2c3334-9c97-4621-a884-b86c9bd41ab2")
 		(property "Reference" "D40"
-			(at 41.91 87.6299 90)
+			(at 59.69 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10229,7 +10599,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 41.91 90.1699 90)
+			(at 59.69 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10238,7 +10608,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 39.37 88.9 90)
+			(at 57.15 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10247,7 +10617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 88.9 90)
+			(at 57.15 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10256,7 +10626,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 39.37 88.9 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10265,7 +10635,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 39.37 88.9 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10274,7 +10644,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 39.37 88.9 0)
+			(at 57.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10939,7 +11309,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 49.53 68.58 0)
+		(at 67.31 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10948,7 +11318,7 @@
 		(fields_autoplaced yes)
 		(uuid "275f8e0b-5373-4287-a9a5-26eba5152b62")
 		(property "Reference" "SW_TAB1"
-			(at 49.53 62.23 0)
+			(at 67.31 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10956,7 +11326,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 49.53 64.77 0)
+			(at 67.31 64.77 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -10964,7 +11334,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 49.53 64.77 0)
+			(at 67.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10973,7 +11343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 64.77 0)
+			(at 67.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10982,7 +11352,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 68.58 0)
+			(at 67.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11499,7 +11869,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 67.31 99.06 0)
+		(at 85.09 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11508,7 +11878,7 @@
 		(fields_autoplaced yes)
 		(uuid "36518a82-4ef0-4f23-b5e6-a9c0ec27fa10")
 		(property "Reference" "SW_Z1"
-			(at 67.31 92.71 0)
+			(at 85.09 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11516,7 +11886,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 67.31 95.25 0)
+			(at 85.09 95.25 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -11524,7 +11894,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 67.31 95.25 0)
+			(at 85.09 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11533,7 +11903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 95.25 0)
+			(at 85.09 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11542,7 +11912,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 99.06 0)
+			(at 85.09 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11579,7 +11949,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 57.15 73.66 90)
+		(at 74.93 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11588,7 +11958,7 @@
 		(fields_autoplaced yes)
 		(uuid "36a488de-271e-4b4a-8d21-3a7ffdd634e9")
 		(property "Reference" "D15"
-			(at 59.69 72.3899 90)
+			(at 77.47 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11597,7 +11967,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 59.69 74.9299 90)
+			(at 77.47 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11606,7 +11976,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 57.15 73.66 90)
+			(at 74.93 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11615,7 +11985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 73.66 90)
+			(at 74.93 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11624,7 +11994,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 57.15 73.66 0)
+			(at 74.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11633,7 +12003,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 57.15 73.66 0)
+			(at 74.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11642,7 +12012,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 73.66 0)
+			(at 74.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12447,7 +12817,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 57.15 88.9 90)
+		(at 74.93 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12456,7 +12826,7 @@
 		(fields_autoplaced yes)
 		(uuid "40723b05-ddee-492f-bfaa-09d5509cf66e")
 		(property "Reference" "D21"
-			(at 59.69 87.6299 90)
+			(at 77.47 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12465,7 +12835,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 59.69 90.1699 90)
+			(at 77.47 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12474,7 +12844,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 57.15 88.9 90)
+			(at 74.93 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12483,7 +12853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 88.9 90)
+			(at 74.93 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12492,7 +12862,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 57.15 88.9 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12501,7 +12871,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 57.15 88.9 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12510,7 +12880,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 88.9 0)
+			(at 74.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12879,7 +13249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SofleRGB:jumper_data"
+		(property "Footprint" "SofleRGB:Jumper"
 			(at 184.15 154.94 0)
 			(effects
 				(font
@@ -13331,7 +13701,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 39.37 73.66 90)
+		(at 57.15 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13340,7 +13710,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d24ce47-c159-4a3f-af49-808b899655b6")
 		(property "Reference" "D39"
-			(at 41.91 72.3899 90)
+			(at 59.69 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13349,7 +13719,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 41.91 74.9299 90)
+			(at 59.69 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13358,7 +13728,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 39.37 73.66 90)
+			(at 57.15 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13367,7 +13737,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 73.66 90)
+			(at 57.15 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13376,7 +13746,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 39.37 73.66 0)
+			(at 57.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13385,7 +13755,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 39.37 73.66 0)
+			(at 57.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13394,7 +13764,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 39.37 73.66 0)
+			(at 57.15 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13907,7 +14277,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 57.15 120.65 90)
+		(at 74.93 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13916,7 +14286,7 @@
 		(fields_autoplaced yes)
 		(uuid "516612e9-bb2a-4502-ac49-8e12649228a7")
 		(property "Reference" "D33"
-			(at 59.69 119.3799 90)
+			(at 77.47 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13925,7 +14295,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 59.69 121.9199 90)
+			(at 77.47 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13934,7 +14304,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 57.15 120.65 90)
+			(at 74.93 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13943,7 +14313,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 120.65 90)
+			(at 74.93 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13952,7 +14322,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 57.15 120.65 0)
+			(at 74.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13961,7 +14331,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 57.15 120.65 0)
+			(at 74.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13970,7 +14340,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 120.65 0)
+			(at 74.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13995,7 +14365,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 67.31 115.57 0)
+		(at 85.09 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14004,7 +14374,7 @@
 		(fields_autoplaced yes)
 		(uuid "51fe08fe-36ff-4e0c-b06f-79ccec32ae0a")
 		(property "Reference" "SW_OPT1"
-			(at 67.31 109.22 0)
+			(at 85.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14012,7 +14382,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 67.31 111.76 0)
+			(at 85.09 111.76 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -14020,7 +14390,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 67.31 111.76 0)
+			(at 85.09 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14029,7 +14399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 111.76 0)
+			(at 85.09 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14038,7 +14408,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 115.57 0)
+			(at 85.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14154,7 +14524,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 67.31 83.82 0)
+		(at 85.09 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14163,7 +14533,7 @@
 		(fields_autoplaced yes)
 		(uuid "5411d20c-8b09-4655-bcfb-b2cde0091e41")
 		(property "Reference" "SW_A1"
-			(at 67.31 77.47 0)
+			(at 85.09 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14171,7 +14541,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 67.31 80.01 0)
+			(at 85.09 80.01 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -14179,7 +14549,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 67.31 80.01 0)
+			(at 85.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14188,7 +14558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 80.01 0)
+			(at 85.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14197,7 +14567,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 83.82 0)
+			(at 85.09 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14314,7 +14684,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 128.27 73.66 90)
+		(at 146.05 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14323,7 +14693,7 @@
 		(fields_autoplaced yes)
 		(uuid "563c843d-acbf-407c-a902-01bfae4366a3")
 		(property "Reference" "D19"
-			(at 130.81 72.3899 90)
+			(at 148.59 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14332,7 +14702,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 130.81 74.9299 90)
+			(at 148.59 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14341,7 +14711,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 128.27 73.66 90)
+			(at 146.05 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14350,7 +14720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 73.66 90)
+			(at 146.05 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14359,7 +14729,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 128.27 73.66 0)
+			(at 146.05 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14368,7 +14738,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 128.27 73.66 0)
+			(at 146.05 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14377,7 +14747,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 128.27 73.66 0)
+			(at 146.05 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14562,7 +14932,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 49.53 83.82 0)
+		(at 67.31 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14571,7 +14941,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cdba944-8592-4b37-b1d9-a2ac11a7a822")
 		(property "Reference" "SW_CAPS1"
-			(at 49.53 77.47 0)
+			(at 67.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14579,7 +14949,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 49.53 80.01 0)
+			(at 67.31 80.01 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -14587,7 +14957,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 49.53 80.01 0)
+			(at 67.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14596,7 +14966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 80.01 0)
+			(at 67.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14605,7 +14975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 83.82 0)
+			(at 67.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14719,7 +15089,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 85.09 68.58 0)
+		(at 102.87 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14728,7 +15098,7 @@
 		(fields_autoplaced yes)
 		(uuid "6017c797-1ea1-4baf-a377-4b5fa4b20344")
 		(property "Reference" "SW_W1"
-			(at 85.09 62.23 0)
+			(at 102.87 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14736,7 +15106,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 85.09 64.77 0)
+			(at 102.87 64.77 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -14744,7 +15114,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 85.09 64.77 0)
+			(at 102.87 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14753,7 +15123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 64.77 0)
+			(at 102.87 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14762,7 +15132,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 68.58 0)
+			(at 102.87 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15527,7 +15897,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 92.71 88.9 90)
+		(at 110.49 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15536,7 +15906,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a4b1704-b189-4ab7-b449-e1b683687a57")
 		(property "Reference" "D23"
-			(at 95.25 87.6299 90)
+			(at 113.03 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15545,7 +15915,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 95.25 90.1699 90)
+			(at 113.03 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15554,7 +15924,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 92.71 88.9 90)
+			(at 110.49 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15563,7 +15933,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 88.9 90)
+			(at 110.49 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15572,7 +15942,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 92.71 88.9 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15581,7 +15951,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 92.71 88.9 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15590,7 +15960,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 92.71 88.9 0)
+			(at 110.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15615,7 +15985,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 31.75 83.82 0)
+		(at 49.53 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15624,7 +15994,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b5b728d-06cf-445f-89dc-de78ce84deab")
 		(property "Reference" "SW_M2"
-			(at 31.75 77.47 0)
+			(at 49.53 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15632,7 +16002,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 31.75 80.01 0)
+			(at 49.53 80.01 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -15640,7 +16010,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 31.75 80.01 0)
+			(at 49.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15649,7 +16019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 80.01 0)
+			(at 49.53 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15658,7 +16028,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 83.82 0)
+			(at 49.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15775,7 +16145,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 146.05 120.65 90)
+		(at 163.83 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15784,7 +16154,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f56b189-cc14-4670-b128-361653468a44")
 		(property "Reference" "D37"
-			(at 148.59 119.3799 90)
+			(at 166.37 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15793,7 +16163,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 148.59 121.9199 90)
+			(at 166.37 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15802,7 +16172,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 146.05 120.65 90)
+			(at 163.83 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15811,7 +16181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 120.65 90)
+			(at 163.83 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15820,7 +16190,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 146.05 120.65 0)
+			(at 163.83 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15829,7 +16199,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 146.05 120.65 0)
+			(at 163.83 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15838,7 +16208,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 120.65 0)
+			(at 163.83 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16103,7 +16473,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 49.53 99.06 0)
+		(at 67.31 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16112,7 +16482,7 @@
 		(fields_autoplaced yes)
 		(uuid "7305be22-5c59-46fd-b906-0813be2e6088")
 		(property "Reference" "SW_SHIFT_L1"
-			(at 49.53 92.71 0)
+			(at 67.31 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16120,7 +16490,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 49.53 95.25 0)
+			(at 67.31 95.25 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -16128,7 +16498,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 49.53 95.25 0)
+			(at 67.31 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16137,7 +16507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 95.25 0)
+			(at 67.31 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16146,7 +16516,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 99.06 0)
+			(at 67.31 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16183,7 +16553,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 57.15 104.14 90)
+		(at 74.93 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16192,7 +16562,7 @@
 		(fields_autoplaced yes)
 		(uuid "74c168cf-fc26-4344-8b77-1d47ad9f7ab7")
 		(property "Reference" "D27"
-			(at 59.69 102.8699 90)
+			(at 77.47 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16201,7 +16571,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 59.69 105.4099 90)
+			(at 77.47 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16210,7 +16580,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 57.15 104.14 90)
+			(at 74.93 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16219,7 +16589,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 104.14 90)
+			(at 74.93 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16228,7 +16598,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 57.15 104.14 0)
+			(at 74.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16237,7 +16607,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 57.15 104.14 0)
+			(at 74.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16246,7 +16616,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 104.14 0)
+			(at 74.93 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16351,7 +16721,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 146.05 88.9 90)
+		(at 163.83 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16360,7 +16730,7 @@
 		(fields_autoplaced yes)
 		(uuid "75d73a82-07b9-4d77-9bbd-7f5a9ff4d49b")
 		(property "Reference" "D26"
-			(at 148.59 87.6299 90)
+			(at 166.37 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16369,7 +16739,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 148.59 90.1699 90)
+			(at 166.37 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16378,7 +16748,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 146.05 88.9 90)
+			(at 163.83 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16387,7 +16757,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 88.9 90)
+			(at 163.83 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16396,7 +16766,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 146.05 88.9 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16405,7 +16775,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 146.05 88.9 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16414,7 +16784,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 88.9 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16439,7 +16809,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 110.49 73.66 90)
+		(at 128.27 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16448,7 +16818,7 @@
 		(fields_autoplaced yes)
 		(uuid "767a31f2-bdfc-4aeb-8ed6-3093e93fbeaf")
 		(property "Reference" "D18"
-			(at 113.03 72.3899 90)
+			(at 130.81 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16457,7 +16827,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 113.03 74.9299 90)
+			(at 130.81 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16466,7 +16836,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 110.49 73.66 90)
+			(at 128.27 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16475,7 +16845,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 73.66 90)
+			(at 128.27 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16484,7 +16854,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 110.49 73.66 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16493,7 +16863,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 110.49 73.66 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16502,7 +16872,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 110.49 73.66 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16607,7 +16977,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 120.65 99.06 0)
+		(at 138.43 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16616,7 +16986,7 @@
 		(fields_autoplaced yes)
 		(uuid "76e36b15-683c-4a8a-8932-d06f0da325bd")
 		(property "Reference" "SW_V1"
-			(at 120.65 92.71 0)
+			(at 138.43 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16624,7 +16994,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 120.65 95.25 0)
+			(at 138.43 95.25 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -16632,7 +17002,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 120.65 95.25 0)
+			(at 138.43 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16641,7 +17011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 95.25 0)
+			(at 138.43 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16650,7 +17020,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 99.06 0)
+			(at 138.43 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17007,7 +17377,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 92.71 120.65 90)
+		(at 110.49 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17016,7 +17386,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e6fadf7-4e8d-4196-810a-673d149f2b9f")
 		(property "Reference" "D35"
-			(at 95.25 119.3799 90)
+			(at 113.03 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17025,7 +17395,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 95.25 121.9199 90)
+			(at 113.03 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17034,7 +17404,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 92.71 120.65 90)
+			(at 110.49 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17043,7 +17413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 120.65 90)
+			(at 110.49 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17052,7 +17422,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 92.71 120.65 0)
+			(at 110.49 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17061,7 +17431,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 92.71 120.65 0)
+			(at 110.49 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17070,7 +17440,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 92.71 120.65 0)
+			(at 110.49 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17404,7 +17774,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 67.31 68.58 0)
+		(at 85.09 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17413,7 +17783,7 @@
 		(fields_autoplaced yes)
 		(uuid "861d9839-4f4d-4719-90c8-5f8d37ed26ce")
 		(property "Reference" "SW_Q1"
-			(at 67.31 62.23 0)
+			(at 85.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17421,7 +17791,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 67.31 64.77 0)
+			(at 85.09 64.77 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -17429,7 +17799,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 67.31 64.77 0)
+			(at 85.09 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17438,7 +17808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 64.77 0)
+			(at 85.09 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17447,7 +17817,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 68.58 0)
+			(at 85.09 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17804,7 +18174,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 120.65 68.58 0)
+		(at 138.43 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17813,7 +18183,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c61166e-14d7-47f2-88a7-2ce419612e11")
 		(property "Reference" "SW_R1"
-			(at 120.65 62.23 0)
+			(at 138.43 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17821,7 +18191,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 120.65 64.77 0)
+			(at 138.43 64.77 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -17829,7 +18199,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 120.65 64.77 0)
+			(at 138.43 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17838,7 +18208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 64.77 0)
+			(at 138.43 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17847,7 +18217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 68.58 0)
+			(at 138.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17884,7 +18254,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 85.09 83.82 0)
+		(at 102.87 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17892,7 +18262,7 @@
 		(dnp no)
 		(uuid "8cb031ae-cc74-4ebf-89de-ca62b33d9fed")
 		(property "Reference" "SW_S1"
-			(at 85.09 77.47 0)
+			(at 102.87 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17900,7 +18270,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 85.09 80.01 0)
+			(at 102.87 80.01 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -17908,7 +18278,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 85.09 80.01 0)
+			(at 102.87 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17917,7 +18287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 80.01 0)
+			(at 102.87 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17926,7 +18296,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 83.82 0)
+			(at 102.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18371,7 +18741,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 74.93 73.66 90)
+		(at 92.71 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18380,7 +18750,7 @@
 		(fields_autoplaced yes)
 		(uuid "93982309-38b4-4f19-a3af-fe88ccaec94f")
 		(property "Reference" "D16"
-			(at 77.47 72.3899 90)
+			(at 95.25 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18389,7 +18759,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 77.47 74.9299 90)
+			(at 95.25 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18398,7 +18768,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 74.93 73.66 90)
+			(at 92.71 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18407,7 +18777,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 73.66 90)
+			(at 92.71 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18416,7 +18786,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 74.93 73.66 0)
+			(at 92.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18425,7 +18795,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 74.93 73.66 0)
+			(at 92.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18434,7 +18804,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 74.93 73.66 0)
+			(at 92.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18459,7 +18829,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 102.87 83.82 0)
+		(at 120.65 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18468,7 +18838,7 @@
 		(fields_autoplaced yes)
 		(uuid "947c038f-1fb3-48e4-a2f1-1f73d979446c")
 		(property "Reference" "SW_D1"
-			(at 102.87 77.47 0)
+			(at 120.65 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18476,7 +18846,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 102.87 80.01 0)
+			(at 120.65 80.01 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -18484,7 +18854,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 102.87 80.01 0)
+			(at 120.65 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18493,7 +18863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 80.01 0)
+			(at 120.65 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18502,7 +18872,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 83.82 0)
+			(at 120.65 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18619,7 +18989,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 146.05 104.14 90)
+		(at 163.83 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18628,7 +18998,7 @@
 		(fields_autoplaced yes)
 		(uuid "95b337ce-7fc4-4761-9f3f-6c150b7b9be9")
 		(property "Reference" "D32"
-			(at 148.59 102.8699 90)
+			(at 166.37 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18637,7 +19007,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 148.59 105.4099 90)
+			(at 166.37 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18646,7 +19016,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 146.05 104.14 90)
+			(at 163.83 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18655,7 +19025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 104.14 90)
+			(at 163.83 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18664,7 +19034,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 146.05 104.14 0)
+			(at 163.83 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18673,7 +19043,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 146.05 104.14 0)
+			(at 163.83 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18682,7 +19052,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 104.14 0)
+			(at 163.83 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19267,7 +19637,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 39.37 57.15 90)
+		(at 57.15 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19276,7 +19646,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f060a45-26e6-4f9f-88ce-574adfb8e821")
 		(property "Reference" "D38"
-			(at 41.91 55.8799 90)
+			(at 59.69 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19285,7 +19655,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 41.91 58.4199 90)
+			(at 59.69 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19294,7 +19664,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 39.37 57.15 90)
+			(at 57.15 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19303,7 +19673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 57.15 90)
+			(at 57.15 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19312,7 +19682,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 39.37 57.15 0)
+			(at 57.15 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19321,7 +19691,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 39.37 57.15 0)
+			(at 57.15 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19330,7 +19700,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 39.37 57.15 0)
+			(at 57.15 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19707,7 +20077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SofleRGB:MJ-4PP-9"
+		(property "Footprint" "SofleKeyboard-footprint:MJ-4PP-9"
 			(at 151.13 149.86 0)
 			(effects
 				(font
@@ -19830,6 +20200,81 @@
 				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
 					(reference "SW_F6")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard-rescue:OLED-Lily58-cache")
+		(at 232.41 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1e6b9e4-bfdb-4b65-bf95-0e160b26bb43")
+		(property "Reference" "J2"
+			(at 234.95 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OLED-Lily58-cache"
+			(at 234.95 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SofleKeyboard-footprint:OLED_4Pin"
+			(at 232.41 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1e41c34-a58d-45ca-94ba-468847d03a8a")
+		)
+		(pin "1"
+			(uuid "b7404076-0881-48f3-8aa4-15eb8bbac5d6")
+		)
+		(pin "3"
+			(uuid "643bd059-57a4-499e-a5bd-c4e162ca6e38")
+		)
+		(pin "4"
+			(uuid "e4f75a6c-0c46-4ad8-b061-1e56b8867184")
+		)
+		(instances
+			(project ""
+				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
+					(reference "J2")
+					(unit 1)
 				)
 			)
 		)
@@ -20076,7 +20521,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 110.49 88.9 90)
+		(at 128.27 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20085,7 +20530,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab47ba3a-5005-4ec6-ae65-964751d1774f")
 		(property "Reference" "D24"
-			(at 113.03 87.6299 90)
+			(at 130.81 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20094,7 +20539,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 113.03 90.1699 90)
+			(at 130.81 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20103,7 +20548,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 110.49 88.9 90)
+			(at 128.27 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20112,7 +20557,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 88.9 90)
+			(at 128.27 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20121,7 +20566,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 110.49 88.9 0)
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20130,7 +20575,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 110.49 88.9 0)
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20139,7 +20584,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 110.49 88.9 0)
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20163,8 +20608,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Arduino:Sparkfun_Pro_Micro")
-		(at 90.17 166.37 0)
+		(lib_id "SofleKeyboard-rescue:ProMicro_2-Lily58-cache-Lily58_Pro-rescue")
+		(at 91.44 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20173,7 +20618,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab51e55b-bc1c-4486-8a82-1844b4746b2a")
 		(property "Reference" "U1"
-			(at 90.17 143.51 0)
+			(at 91.44 143.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20181,7 +20626,7 @@
 			)
 		)
 		(property "Value" "Sparkfun_Pro_Micro"
-			(at 90.17 146.05 0)
+			(at 91.44 146.05 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20189,25 +20634,25 @@
 			)
 		)
 		(property "Footprint" "Keebio-Parts:ArduinoProMicro"
-			(at 90.17 182.88 0)
+			(at 90.17 162.56 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.sparkfun.com/products/12640"
-			(at 92.71 193.04 0)
+			(at 90.17 162.56 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "Sparkfun Pro Micro"
-			(at 90.17 166.37 0)
+			(at 91.44 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20538,7 +20983,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 49.53 115.57 0)
+		(at 67.31 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20547,7 +20992,7 @@
 		(fields_autoplaced yes)
 		(uuid "b07457d0-b746-4a94-8019-09ff31d09003")
 		(property "Reference" "SW_CTRL_L1"
-			(at 49.53 109.22 0)
+			(at 67.31 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20555,7 +21000,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 49.53 111.76 0)
+			(at 67.31 111.76 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -20563,7 +21008,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 49.53 111.76 0)
+			(at 67.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20572,7 +21017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 111.76 0)
+			(at 67.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20581,7 +21026,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 115.57 0)
+			(at 67.31 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20844,7 +21289,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 92.71 73.66 90)
+		(at 110.49 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20853,7 +21298,7 @@
 		(fields_autoplaced yes)
 		(uuid "b58f37ab-82d9-4345-9785-b934604a830e")
 		(property "Reference" "D17"
-			(at 95.25 72.3899 90)
+			(at 113.03 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20862,7 +21307,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 95.25 74.9299 90)
+			(at 113.03 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20871,7 +21316,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 92.71 73.66 90)
+			(at 110.49 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20880,7 +21325,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 73.66 90)
+			(at 110.49 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20889,7 +21334,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 92.71 73.66 0)
+			(at 110.49 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20898,7 +21343,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 92.71 73.66 0)
+			(at 110.49 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20907,7 +21352,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 92.71 73.66 0)
+			(at 110.49 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22714,7 +23159,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 120.65 115.57 0)
+		(at 138.43 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22723,7 +23168,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1793260-4df1-40d3-8abd-d0f1f852a261")
 		(property "Reference" "SW_SPC_L1"
-			(at 120.65 109.22 0)
+			(at 138.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22731,7 +23176,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 120.65 111.76 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -22739,7 +23184,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 120.65 111.76 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22748,7 +23193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 111.76 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22757,7 +23202,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 115.57 0)
+			(at 138.43 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23343,7 +23788,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 138.43 115.57 0)
+		(at 156.21 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23352,7 +23797,7 @@
 		(fields_autoplaced yes)
 		(uuid "dab62150-49fa-4be1-9ac0-5c8bc7793d0f")
 		(property "Reference" "SW_FN1"
-			(at 138.43 109.22 0)
+			(at 156.21 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23360,7 +23805,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 138.43 111.76 0)
+			(at 156.21 111.76 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -23368,7 +23813,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 138.43 111.76 0)
+			(at 156.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23377,7 +23822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 111.76 0)
+			(at 156.21 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23386,7 +23831,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 115.57 0)
+			(at 156.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23743,7 +24188,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 102.87 68.58 0)
+		(at 120.65 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23752,7 +24197,7 @@
 		(fields_autoplaced yes)
 		(uuid "df1cc954-cde3-4a01-be4e-17864da109a1")
 		(property "Reference" "SW_E1"
-			(at 102.87 62.23 0)
+			(at 120.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23760,7 +24205,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 102.87 64.77 0)
+			(at 120.65 64.77 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -23768,7 +24213,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 102.87 64.77 0)
+			(at 120.65 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23777,7 +24222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 64.77 0)
+			(at 120.65 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23786,7 +24231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 68.58 0)
+			(at 120.65 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23823,7 +24268,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 138.43 83.82 0)
+		(at 156.21 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23832,7 +24277,7 @@
 		(fields_autoplaced yes)
 		(uuid "e04cfcb7-1e29-40dc-8190-80d9af0ed4e8")
 		(property "Reference" "SW_G1"
-			(at 138.43 77.47 0)
+			(at 156.21 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23840,7 +24285,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 138.43 80.01 0)
+			(at 156.21 80.01 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -23848,7 +24293,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 138.43 80.01 0)
+			(at 156.21 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23857,7 +24302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 80.01 0)
+			(at 156.21 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23866,7 +24311,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 83.82 0)
+			(at 156.21 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23903,7 +24348,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 74.93 88.9 90)
+		(at 92.71 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23912,7 +24357,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0c42e63-0e9c-40c8-aef5-fd72df7fab19")
 		(property "Reference" "D22"
-			(at 77.47 87.6299 90)
+			(at 95.25 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23921,7 +24366,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 77.47 90.1699 90)
+			(at 95.25 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23930,7 +24375,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 74.93 88.9 90)
+			(at 92.71 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23939,7 +24384,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 88.9 90)
+			(at 92.71 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23948,7 +24393,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 74.93 88.9 0)
+			(at 92.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23957,7 +24402,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 74.93 88.9 0)
+			(at 92.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23966,7 +24411,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 74.93 88.9 0)
+			(at 92.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24471,7 +24916,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 128.27 104.14 90)
+		(at 146.05 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24480,7 +24925,7 @@
 		(fields_autoplaced yes)
 		(uuid "e75741b1-4cad-44f1-b830-065ba6612434")
 		(property "Reference" "D31"
-			(at 130.81 102.8699 90)
+			(at 148.59 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24489,7 +24934,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 130.81 105.4099 90)
+			(at 148.59 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24498,7 +24943,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 128.27 104.14 90)
+			(at 146.05 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24507,7 +24952,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 104.14 90)
+			(at 146.05 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24516,7 +24961,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 128.27 104.14 0)
+			(at 146.05 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24525,7 +24970,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 128.27 104.14 0)
+			(at 146.05 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24534,7 +24979,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 128.27 104.14 0)
+			(at 146.05 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24559,7 +25004,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 92.71 104.14 90)
+		(at 110.49 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24568,7 +25013,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea2197c2-efea-41cd-a533-860b0e06aa85")
 		(property "Reference" "D29"
-			(at 95.25 102.8699 90)
+			(at 113.03 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24577,7 +25022,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 95.25 105.4099 90)
+			(at 113.03 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24586,7 +25031,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 92.71 104.14 90)
+			(at 110.49 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24595,7 +25040,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 104.14 90)
+			(at 110.49 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24604,7 +25049,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 92.71 104.14 0)
+			(at 110.49 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24613,7 +25058,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 92.71 104.14 0)
+			(at 110.49 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24622,7 +25067,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 92.71 104.14 0)
+			(at 110.49 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24735,7 +25180,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 102.87 99.06 0)
+		(at 120.65 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24744,7 +25189,7 @@
 		(fields_autoplaced yes)
 		(uuid "ece09110-8b85-49d0-af69-907846e8225e")
 		(property "Reference" "SW_C1"
-			(at 102.87 92.71 0)
+			(at 120.65 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24752,7 +25197,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 102.87 95.25 0)
+			(at 120.65 95.25 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -24760,7 +25205,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 102.87 95.25 0)
+			(at 120.65 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24769,7 +25214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 95.25 0)
+			(at 120.65 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24778,7 +25223,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 99.06 0)
+			(at 120.65 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25383,7 +25828,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 138.43 99.06 0)
+		(at 156.21 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25392,7 +25837,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5e0971e-570e-4070-9c97-c708db6f5de9")
 		(property "Reference" "SW_B_L1"
-			(at 138.43 92.71 0)
+			(at 156.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25400,7 +25845,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 138.43 95.25 0)
+			(at 156.21 95.25 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -25408,7 +25853,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 138.43 95.25 0)
+			(at 156.21 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25417,7 +25862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 95.25 0)
+			(at 156.21 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25426,7 +25871,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 99.06 0)
+			(at 156.21 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25703,7 +26148,7 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
-		(at 85.09 99.06 0)
+		(at 102.87 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25712,7 +26157,7 @@
 		(fields_autoplaced yes)
 		(uuid "f883a2ed-2049-40ee-bde7-fd6e57ca6c5a")
 		(property "Reference" "SW_X1"
-			(at 85.09 92.71 0)
+			(at 102.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25720,7 +26165,7 @@
 			)
 		)
 		(property "Value" "SW_PUSH-MX_W_LED"
-			(at 85.09 95.25 0)
+			(at 102.87 95.25 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -25728,7 +26173,7 @@
 			)
 		)
 		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
-			(at 85.09 95.25 0)
+			(at 102.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25737,7 +26182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 95.25 0)
+			(at 102.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25746,7 +26191,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 99.06 0)
+			(at 102.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25943,7 +26388,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 128.27 88.9 90)
+		(at 146.05 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25952,7 +26397,7 @@
 		(fields_autoplaced yes)
 		(uuid "f99265c9-2e5a-4aa4-bc5d-daa970d3bf53")
 		(property "Reference" "D25"
-			(at 130.81 87.6299 90)
+			(at 148.59 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25961,7 +26406,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 130.81 90.1699 90)
+			(at 148.59 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25970,7 +26415,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
-			(at 128.27 88.9 90)
+			(at 146.05 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25979,7 +26424,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 88.9 90)
+			(at 146.05 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25988,7 +26433,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 128.27 88.9 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25997,7 +26442,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 128.27 88.9 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26006,7 +26451,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 128.27 88.9 0)
+			(at 146.05 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
