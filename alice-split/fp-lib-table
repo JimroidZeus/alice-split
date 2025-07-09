@@ -1,6 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/../Keebio-Parts.pretty")(options "")(descr ""))
+  (lib (name "Keebio-Parts")(type "KiCad")(uri "C:/Users/JimroidZeus/source/repos/alice-split/Keebio-Parts.pretty")(options "")(descr ""))
   (lib (name "MX_Alps_Hybrid")(type "KiCad")(uri "${KIPRJMOD}/../MX_Alps_Hybrid.pretty")(options "")(descr ""))
   (lib (name "SofleKeyboard-footprint")(type "KiCad")(uri "${KIPRJMOD}/../../SofleKeyboard/footprints/SofleKeyboard-footprint.pretty")(options "")(descr ""))
   (lib (name "SofleRGB")(type "KiCad")(uri "${KIPRJMOD}/../../SofleKeyboard/Sofle_RGB/PCB/SofleRGB.pretty")(options "")(descr ""))
