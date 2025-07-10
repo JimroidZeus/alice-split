@@ -2562,6 +2562,12 @@
 		(uuid "8eba53b4-bb6a-4483-8776-0428365eaa14")
 	)
 	(junction
+		(at 41.91 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90782903-5408-4ba3-b711-3d39686c2b26")
+	)
+	(junction
 		(at 95.25 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4171,7 +4177,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 52.07) (xy 41.91 83.82)
+			(xy 41.91 52.07) (xy 41.91 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6301,6 +6307,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 68.58) (xy 41.91 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8868f99-01bf-4d1b-8cd2-0addc80b2738")
+	)
+	(wire
+		(pts
 			(xy 280.67 41.91) (xy 280.67 49.53)
 		)
 		(stroke
@@ -7094,23 +7110,23 @@
 	)
 	(hierarchical_label "ROW4"
 		(shape input)
-		(at 74.93 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "192243fd-d59f-4ec6-a223-1f7efb7656eb")
-	)
-	(hierarchical_label "COL4"
-		(shape input)
-		(at 107.95 173.99 0)
+		(at 107.95 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "192243fd-d59f-4ec6-a223-1f7efb7656eb")
+	)
+	(hierarchical_label "COL4"
+		(shape input)
+		(at 74.93 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "1c5e080b-2ce6-42ea-b59a-c045e5f01bf7")
 	)
@@ -7182,12 +7198,12 @@
 	)
 	(hierarchical_label "COL5"
 		(shape input)
-		(at 107.95 176.53 0)
+		(at 74.93 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4d0b4a38-0dde-45c5-947c-061182d65f1d")
 	)
@@ -7204,12 +7220,12 @@
 	)
 	(hierarchical_label "ROW0"
 		(shape input)
-		(at 74.93 166.37 180)
+		(at 107.95 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5087c5d0-f84a-45f7-a14e-44a2b913a3d9")
 	)
@@ -7259,12 +7275,12 @@
 	)
 	(hierarchical_label "COL1"
 		(shape input)
-		(at 107.95 166.37 0)
+		(at 74.93 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "59e705a1-7bc4-41c9-b02d-dba818a7fc59")
 	)
@@ -7303,12 +7319,12 @@
 	)
 	(hierarchical_label "ROW2"
 		(shape input)
-		(at 74.93 171.45 180)
+		(at 107.95 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6dbd0387-b599-4fe3-901d-4f402206fbe1")
 	)
@@ -7424,23 +7440,23 @@
 	)
 	(hierarchical_label "ROW3"
 		(shape input)
-		(at 74.93 173.99 180)
+		(at 107.95 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "93375848-aa7c-40a1-a437-582e9b6d9009")
 	)
 	(hierarchical_label "ROW1"
 		(shape input)
-		(at 74.93 168.91 180)
+		(at 107.95 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "94f9a408-96fd-48e8-a8ff-0095e13b4ea6")
 	)
@@ -7457,34 +7473,34 @@
 	)
 	(hierarchical_label "COL3"
 		(shape input)
-		(at 107.95 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "96652a5b-42a8-48e3-8385-17ff379c9e32")
-	)
-	(hierarchical_label "ENCB"
-		(shape input)
-		(at 74.93 179.07 180)
+		(at 74.93 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "97b9ea4f-91eb-4afe-9dda-4b31401fe7b5")
+		(uuid "96652a5b-42a8-48e3-8385-17ff379c9e32")
 	)
-	(hierarchical_label "COL2"
+	(hierarchical_label "ENCB"
 		(shape input)
-		(at 107.95 168.91 0)
+		(at 107.95 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "97b9ea4f-91eb-4afe-9dda-4b31401fe7b5")
+	)
+	(hierarchical_label "COL2"
+		(shape input)
+		(at 74.93 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "9dcd62f3-a1e0-4469-b32a-00e647ea1ee1")
 	)
@@ -7666,18 +7682,18 @@
 	)
 	(hierarchical_label "COL6"
 		(shape input)
-		(at 107.95 179.07 0)
+		(at 74.93 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ec42210e-630c-412c-949e-8e0b81d6ea4c")
 	)
 	(hierarchical_label "COL0"
 		(shape input)
-		(at 107.95 163.83 0)
+		(at 107.95 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8475,7 +8491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c33a6bb-c1b9-46b1-8b86-49dd1019c5e3")
-		(property "Reference" "SW_M1"
+		(property "Reference" "SW_MACRO1"
 			(at 181.61 60.96 0)
 			(effects
 				(font
@@ -8539,7 +8555,7 @@
 		(instances
 			(project ""
 				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
-					(reference "SW_M1")
+					(reference "SW_MACRO1")
 					(unit 2)
 				)
 			)
@@ -11815,7 +11831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b5b728d-06cf-445f-89dc-de78ce84deab")
-		(property "Reference" "SW_M2"
+		(property "Reference" "SW_MACRO2"
 			(at 49.53 77.47 0)
 			(effects
 				(font
@@ -11879,7 +11895,7 @@
 		(instances
 			(project ""
 				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
-					(reference "SW_M2")
+					(reference "SW_MACRO2")
 					(unit 1)
 				)
 			)
@@ -15044,6 +15060,86 @@
 		)
 	)
 	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
+		(at 49.53 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2cdbd1c-42e8-40f8-a716-955647e4f88e")
+		(property "Reference" "SW_MACRO1"
+			(at 49.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH-MX_W_LED"
+			(at 49.53 64.77 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
+			(at 49.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "cc8797bf-fd3c-4ad7-98bc-938030c3c4eb")
+		)
+		(pin "3"
+			(uuid "3dc0aaf8-1a25-49b1-aa1f-e4fbdcdcc7ea")
+		)
+		(pin "6"
+			(uuid "cff65352-13a3-4e40-b1ba-0ffe7a1e17ed")
+		)
+		(pin "5"
+			(uuid "ea67eb08-747b-45f3-8f81-82868d9da473")
+		)
+		(pin "1"
+			(uuid "5da23dc9-008a-41fa-856d-495df828cbd3")
+		)
+		(pin "2"
+			(uuid "811b8c76-e24e-474e-b65a-58025762fef5")
+		)
+		(instances
+			(project "alice-split"
+				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
+					(reference "SW_MACRO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 22.86 166.37 0)
 		(unit 1)
@@ -15621,7 +15717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c309388e-1c97-46a3-9207-2147460eceab")
-		(property "Reference" "SW_M2"
+		(property "Reference" "SW_MACRO2"
 			(at 181.61 77.47 0)
 			(effects
 				(font
@@ -15685,7 +15781,7 @@
 		(instances
 			(project ""
 				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
-					(reference "SW_M2")
+					(reference "SW_MACRO2")
 					(unit 2)
 				)
 			)
