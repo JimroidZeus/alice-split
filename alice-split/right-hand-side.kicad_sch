@@ -7430,7 +7430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1042f6cb-e231-489b-9fbb-306e0ab34861")
-		(property "Reference" "SW_MACRO3"
+		(property "Reference" "SW_MACRO2"
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -7494,7 +7494,7 @@
 		(instances
 			(project "alice-split"
 				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88/f99b5142-ab32-412d-82f2-88815e80dfc6"
-					(reference "SW_MACRO3")
+					(reference "SW_MACRO2")
 					(unit 2)
 				)
 			)
@@ -10332,7 +10332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a2e80d5-3f12-4f07-8e60-024f837f80a9")
-		(property "Reference" "SW_MACRO3"
+		(property "Reference" "SW_MACRO2"
 			(at 138.43 76.2 0)
 			(effects
 				(font
@@ -10396,7 +10396,7 @@
 		(instances
 			(project "alice-split"
 				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88/f99b5142-ab32-412d-82f2-88815e80dfc6"
-					(reference "SW_MACRO3")
+					(reference "SW_MACRO2")
 					(unit 1)
 				)
 			)
