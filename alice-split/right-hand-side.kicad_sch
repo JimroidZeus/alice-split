@@ -175,6 +175,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:RotaryEncoder_Switch"
 			(pin_names
 				(offset 0.254)
@@ -3034,6 +3159,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 137.16) (xy 96.52 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109ba4f6-f6d3-453a-87a0-af3fc9cea778")
+	)
+	(wire
+		(pts
 			(xy 111.76 26.67) (xy 111.76 40.64)
 		)
 		(stroke
@@ -3894,6 +4029,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 137.16) (xy 88.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4efde337-7de0-487a-8f15-bb888093b4a5")
+	)
+	(wire
+		(pts
 			(xy 189.23 38.1) (xy 187.96 38.1)
 		)
 		(stroke
@@ -4071,6 +4216,16 @@
 			(type default)
 		)
 		(uuid "5df9f436-6ee8-4dad-8536-dacb5e075ab6")
+	)
+	(wire
+		(pts
+			(xy 88.9 144.78) (xy 88.9 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e394022-c8a7-4479-a8f5-c381db7bbbf2")
 	)
 	(wire
 		(pts
@@ -5744,6 +5899,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 144.78) (xy 96.52 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da6cca90-f63b-4d59-8c2f-e8a27c969253")
+	)
+	(wire
+		(pts
 			(xy 35.56 40.64) (xy 35.56 54.61)
 		)
 		(stroke
@@ -6182,6 +6347,17 @@
 		)
 		(uuid "fe8b8515-28ad-466e-9637-aeadea7f130a")
 	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 96.52 137.16 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03c48b5f-53d9-43b0-999b-02271b82c552")
+	)
 	(hierarchical_label "ENC_S2"
 		(shape input)
 		(at 67.31 119.38 0)
@@ -6325,6 +6501,17 @@
 		)
 		(uuid "41383b63-34bc-4d45-b42d-5091e22c2cbf")
 	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 88.9 137.16 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "439b34ff-038e-4dd7-b20d-3783835900c8")
+	)
 	(hierarchical_label "DATA"
 		(shape input)
 		(at 93.98 179.07 0)
@@ -6467,6 +6654,17 @@
 			(justify left)
 		)
 		(uuid "78ebb1e3-58f8-4f7f-9350-a1265e615135")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 88.9 148.59 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "793b3f48-64b6-42bc-bce3-df616991973d")
 	)
 	(hierarchical_label "ROW2"
 		(shape input)
@@ -6654,6 +6852,17 @@
 			(justify right)
 		)
 		(uuid "cec16a58-517e-41de-b87a-08c34e156fab")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 96.52 148.59 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5c61b6e-7415-438b-8a2a-b373e4749e39")
 	)
 	(hierarchical_label "ENCB"
 		(shape input)
@@ -7430,7 +7639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1042f6cb-e231-489b-9fbb-306e0ab34861")
-		(property "Reference" "SW_MACRO2"
+		(property "Reference" "SW_MACRO4"
 			(at 236.22 76.2 0)
 			(effects
 				(font
@@ -7494,7 +7703,7 @@
 		(instances
 			(project "alice-split"
 				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88/f99b5142-ab32-412d-82f2-88815e80dfc6"
-					(reference "SW_MACRO2")
+					(reference "SW_MACRO4")
 					(unit 2)
 				)
 			)
@@ -10332,7 +10541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a2e80d5-3f12-4f07-8e60-024f837f80a9")
-		(property "Reference" "SW_MACRO2"
+		(property "Reference" "SW_MACRO4"
 			(at 138.43 76.2 0)
 			(effects
 				(font
@@ -10396,7 +10605,7 @@
 		(instances
 			(project "alice-split"
 				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88/f99b5142-ab32-412d-82f2-88815e80dfc6"
-					(reference "SW_MACRO2")
+					(reference "SW_MACRO4")
 					(unit 1)
 				)
 			)
@@ -12774,6 +12983,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 88.9 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c99d288-1ebf-48ae-92e1-fa3cddd97e25")
+		(property "Reference" "R3"
+			(at 85.852 141.478 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 91.186 145.796 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SofleKeyboard-footprint:R_1206_DoubleSided"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d783dadb-27c7-4307-ad44-c2c9de3689b7")
+		)
+		(pin "2"
+			(uuid "c858c114-a5bc-418d-bc3a-19ac15bff498")
+		)
+		(instances
+			(project "alice-split"
+				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88/f99b5142-ab32-412d-82f2-88815e80dfc6"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SofleKeyboard:LED_sk2812_SM")
 		(at 257.81 82.55 0)
 		(unit 1)
@@ -14638,6 +14916,75 @@
 				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88/f99b5142-ab32-412d-82f2-88815e80dfc6"
 					(reference "SW83")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad94d072-7faf-43d2-a8ee-1499341ff843")
+		(property "Reference" "R4"
+			(at 93.472 141.732 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 99.06 145.796 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SofleKeyboard-footprint:R_1206_DoubleSided"
+			(at 96.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 96.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "014ad259-a0eb-4cec-965f-4b823a853010")
+		)
+		(pin "2"
+			(uuid "30f32d5e-03d0-40d6-b12d-f463e5fe648e")
+		)
+		(instances
+			(project "alice-split"
+				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88/f99b5142-ab32-412d-82f2-88815e80dfc6"
+					(reference "R4")
+					(unit 1)
 				)
 			)
 		)

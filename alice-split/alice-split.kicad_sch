@@ -2262,6 +2262,12 @@
 		(uuid "118a17df-cc5f-4ff8-936e-cc7cfe38bd41")
 	)
 	(junction
+		(at 128.27 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12a829cc-6edb-4062-bd48-e442c68e0acc")
+	)
+	(junction
 		(at 92.71 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2550,6 +2556,12 @@
 		(uuid "842fa7a5-c04d-412c-9c5b-745c1211ce1d")
 	)
 	(junction
+		(at 113.03 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87be6d86-5504-464f-a079-b68f702b223d")
+	)
+	(junction
 		(at 148.59 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2796,6 +2808,12 @@
 		(uuid "df9e8b64-1b8a-49eb-9bb8-a218e17eab04")
 	)
 	(junction
+		(at 41.91 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dffbbff1-4829-4783-90a9-081c9ba3e45d")
+	)
+	(junction
 		(at 74.93 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2866,6 +2884,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f19467e6-9d14-485d-a906-bca4714a3f95")
+	)
+	(junction
+		(at 57.15 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1ad0f99-3e21-4745-a36f-89047c321f3f")
 	)
 	(junction
 		(at 218.44 87.63)
@@ -4117,7 +4141,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 123.19) (xy 74.93 123.19)
+			(xy 21.59 123.19) (xy 57.15 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4374,6 +4398,16 @@
 			(type default)
 		)
 		(uuid "5978d98c-afd7-4e84-87a5-6cd37b0a51d4")
+	)
+	(wire
+		(pts
+			(xy 41.91 99.06) (xy 41.91 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6378a9-5e8e-489e-886b-6f2a63e764e0")
 	)
 	(wire
 		(pts
@@ -4717,7 +4751,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 123.19) (xy 146.05 123.19)
+			(xy 110.49 123.19) (xy 128.27 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5247,6 +5281,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 115.57) (xy 128.27 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9438612f-8480-48c3-a779-728f921022e8")
+	)
+	(wire
+		(pts
 			(xy 259.08 118.11) (xy 256.54 118.11)
 		)
 		(stroke
@@ -5664,6 +5708,16 @@
 			(type default)
 		)
 		(uuid "b1f08247-8ee4-4e93-b820-357d421ae6c5")
+	)
+	(wire
+		(pts
+			(xy 113.03 99.06) (xy 113.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26574d3-d2bf-4755-a925-400cdc55d5ba")
 	)
 	(wire
 		(pts
@@ -6117,6 +6171,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 115.57) (xy 57.15 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd2fac5-1074-45eb-8b1a-d1017980144e")
+	)
+	(wire
+		(pts
 			(xy 332.74 -13.97) (xy 332.74 -11.43)
 		)
 		(stroke
@@ -6194,6 +6258,16 @@
 			(type default)
 		)
 		(uuid "cefd1a7a-4890-4f68-8667-c8137c5551c5")
+	)
+	(wire
+		(pts
+			(xy 128.27 123.19) (xy 146.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf15ef53-4143-406a-98e3-e3b7f5ace527")
 	)
 	(wire
 		(pts
@@ -6664,6 +6738,16 @@
 			(type default)
 		)
 		(uuid "ea324247-5180-42de-be09-b35f17e15ead")
+	)
+	(wire
+		(pts
+			(xy 57.15 123.19) (xy 74.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5ae5ad-0831-4a2b-9494-67ab7b042ef1")
 	)
 	(wire
 		(pts
@@ -8236,6 +8320,94 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
+		(at 128.27 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0907186a-1ff9-48ec-9798-18fa5e847b8f")
+		(property "Reference" "D74"
+			(at 130.81 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 130.81 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
+			(at 128.27 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ef3c37d-29e2-476f-831a-7555ea73cd92")
+		)
+		(pin "2"
+			(uuid "814f6ac0-5eff-4df7-a11f-3fab9d627be1")
+		)
+		(instances
+			(project ""
+				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
+					(reference "D74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
 		(at 92.71 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9067,6 +9239,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Small")
+		(at 57.15 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2035d68f-25ad-4acc-9852-8666b6636eb2")
+		(property "Reference" "D40"
+			(at 59.69 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 59.69 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric"
+			(at 57.15 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 57.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 57.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 57.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ef3c37d-29e2-476f-831a-7555ea73cd92")
+		)
+		(pin "2"
+			(uuid "814f6ac0-5eff-4df7-a11f-3fab9d627be1")
+		)
+		(instances
+			(project ""
+				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
 		(at 251.46 83.82 0)
 		(unit 2)
@@ -9850,6 +10110,86 @@
 				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
 					(reference "D_ENC_L1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
+		(at 190.5 139.7 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37cf20b7-cc85-40ae-aba7-2644f466179c")
+		(property "Reference" "SW_MACRO2"
+			(at 190.5 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH-MX_W_LED"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d0f70c7a-9291-46c6-bdfe-446ed066068e")
+		)
+		(pin "2"
+			(uuid "f3164124-e397-48da-ba29-eb3b80e5d03f")
+		)
+		(pin "4"
+			(uuid "704e055e-f4f3-4e93-8369-247a014c227f")
+		)
+		(pin "6"
+			(uuid "bae450f1-e763-4ae6-a5a1-62c51a64d87d")
+		)
+		(pin "1"
+			(uuid "bc31ad66-ceae-46c9-a9d4-07de8cc46306")
+		)
+		(pin "3"
+			(uuid "2c94f9c7-9aaa-4a6c-b66d-9f13afefabe6")
+		)
+		(instances
+			(project ""
+				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
+					(reference "SW_MACRO2")
+					(unit 2)
 				)
 			)
 		)
@@ -12327,6 +12667,86 @@
 			(project ""
 				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
 					(reference "SW_V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
+		(at 120.65 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "785a9174-743b-4431-b121-5c555d62b45a")
+		(property "Reference" "SW_MACRO3"
+			(at 120.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH-MX_W_LED"
+			(at 120.65 111.76 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
+			(at 120.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d0f70c7a-9291-46c6-bdfe-446ed066068e")
+		)
+		(pin "2"
+			(uuid "f3164124-e397-48da-ba29-eb3b80e5d03f")
+		)
+		(pin "4"
+			(uuid "704e055e-f4f3-4e93-8369-247a014c227f")
+		)
+		(pin "6"
+			(uuid "bae450f1-e763-4ae6-a5a1-62c51a64d87d")
+		)
+		(pin "1"
+			(uuid "bc31ad66-ceae-46c9-a9d4-07de8cc46306")
+		)
+		(pin "3"
+			(uuid "2c94f9c7-9aaa-4a6c-b66d-9f13afefabe6")
+		)
+		(instances
+			(project ""
+				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
+					(reference "SW_MACRO3")
 					(unit 1)
 				)
 			)
@@ -15213,6 +15633,86 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
+		(at 209.55 135.89 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b68f1b18-b2f9-46a7-bbc3-43df5de44c78")
+		(property "Reference" "SW_MACRO3"
+			(at 209.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH-MX_W_LED"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d0f70c7a-9291-46c6-bdfe-446ed066068e")
+		)
+		(pin "2"
+			(uuid "f3164124-e397-48da-ba29-eb3b80e5d03f")
+		)
+		(pin "4"
+			(uuid "704e055e-f4f3-4e93-8369-247a014c227f")
+		)
+		(pin "6"
+			(uuid "bae450f1-e763-4ae6-a5a1-62c51a64d87d")
+		)
+		(pin "1"
+			(uuid "bc31ad66-ceae-46c9-a9d4-07de8cc46306")
+		)
+		(pin "3"
+			(uuid "2c94f9c7-9aaa-4a6c-b66d-9f13afefabe6")
+		)
+		(instances
+			(project ""
+				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
+					(reference "SW_MACRO3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
 		(at 67.31 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15541,6 +16041,86 @@
 			(project ""
 				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
 					(reference "SW_F4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard:SW_PUSH-MX_W_LED")
+		(at 49.53 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c72cf6dd-f8ac-4d60-99c7-a4c7dae8f0ac")
+		(property "Reference" "SW_MACRO2"
+			(at 49.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_PUSH-MX_W_LED"
+			(at 49.53 111.76 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "SofleRGB:SK6812MINI_and_cherry"
+			(at 49.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d0f70c7a-9291-46c6-bdfe-446ed066068e")
+		)
+		(pin "2"
+			(uuid "f3164124-e397-48da-ba29-eb3b80e5d03f")
+		)
+		(pin "4"
+			(uuid "704e055e-f4f3-4e93-8369-247a014c227f")
+		)
+		(pin "6"
+			(uuid "bae450f1-e763-4ae6-a5a1-62c51a64d87d")
+		)
+		(pin "1"
+			(uuid "bc31ad66-ceae-46c9-a9d4-07de8cc46306")
+		)
+		(pin "3"
+			(uuid "2c94f9c7-9aaa-4a6c-b66d-9f13afefabe6")
+		)
+		(instances
+			(project ""
+				(path "/bb4d8238-ce23-40f3-a858-bd67b0639c88"
+					(reference "SW_MACRO2")
 					(unit 1)
 				)
 			)
