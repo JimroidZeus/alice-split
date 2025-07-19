@@ -49491,13 +49491,13 @@
 	(footprint "SofleRGB:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "42b1cd14-4e1d-4070-8326-e340e61df2a1")
-		(at 56.5 109.92625)
+		(at -19.05 144.125)
 		(property "Reference" "SW_MACRO3"
 			(at 0 3 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e0239fe4-d15b-42cf-a8ce-3deec5078677")
+			(uuid "18b84805-55f9-44c6-90af-0c835fca6b17")
 			(effects
 				(font
 					(size 1 1)
@@ -49509,7 +49509,7 @@
 			(at -0.3 8.2 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "829ddad7-9ac6-4a32-8cde-7ff5322615cb")
+			(uuid "9a8dd018-ef0f-4176-9b98-17cd288c8150")
 			(effects
 				(font
 					(size 1 1)
@@ -49521,7 +49521,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0de15c33-d72a-4d7b-a9f1-7f9e54b221c0")
+			(uuid "b9019fbc-2261-4ad3-8c76-e0ee46feb9fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49533,7 +49533,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f50ac1ae-e895-4e4c-8111-692e365e2b94")
+			(uuid "a38a63c3-92a8-4f64-a430-49c02568f1ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62017,13 +62017,13 @@
 	(footprint "SofleRGB:SK6812MINI_and_cherry"
 		(layer "F.Cu")
 		(uuid "5e3256f0-d0bd-4510-9982-4b1968788c5a")
-		(at 57.15 132.92625)
+		(at -18.4 167.125)
 		(property "Reference" "SW_MACRO2"
 			(at 0 3 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8c38d911-4a5e-4a85-afe1-11ec2b33af33")
+			(uuid "5aeb1d3b-bfa6-4e7b-83a5-722c1e9a4f9b")
 			(effects
 				(font
 					(size 1 1)
@@ -62035,7 +62035,7 @@
 			(at -0.3 8.2 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f7accf52-1641-4b6b-8201-6fdfd94e692a")
+			(uuid "c8c5507e-643b-4761-b57b-107e5ebd7580")
 			(effects
 				(font
 					(size 1 1)
@@ -62047,7 +62047,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d2839ac-9011-42d1-a6a7-bb72a927ddf6")
+			(uuid "7dfdf7fe-15f2-4d72-870c-50acf5bca539")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62059,7 +62059,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e7eddcd-a44c-43d3-8d5e-10dd0fcc1ea8")
+			(uuid "39c6a457-1a6d-403f-8a9a-9fee0f328c80")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153581,13 +153581,13 @@
 	(footprint "Diode_SMD:D_1206_3216Metric"
 		(layer "B.Cu")
 		(uuid "9543de4b-2d6d-4402-bd05-dc4c8c325668")
-		(at 48.5 111.5 90)
+		(at -27.05 145.69875 90)
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D74"
 			(at 0 1.83 90)
 			(layer "B.SilkS")
-			(uuid "14af4ff8-bf11-4396-9b78-d7b2b3b97570")
+			(uuid "5707553e-6656-4a04-b2e0-7d3fa1151b89")
 			(effects
 				(font
 					(size 1 1)
@@ -153599,7 +153599,7 @@
 		(property "Value" "D_Small"
 			(at 0 -1.83 90)
 			(layer "B.Fab")
-			(uuid "e0f0dfde-fba5-4404-9704-bb186007f037")
+			(uuid "c8931834-569e-48fe-8281-481b1acf446d")
 			(effects
 				(font
 					(size 1 1)
@@ -153612,7 +153612,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "85ba2a4b-9402-4aa4-a790-a3cd1142fd95")
+			(uuid "102a7f6a-6fcd-46dc-b272-e88ccd9a4f60")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153625,7 +153625,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "42e82f1b-4b0d-4227-8c2d-ffdd4f33b9c5")
+			(uuid "e75d9090-b98d-4639-9859-94dfc5df4f97")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158092,13 +158092,13 @@
 	(footprint "Diode_SMD:D_1206_3216Metric"
 		(layer "B.Cu")
 		(uuid "ca5a6953-a9b5-4b42-8231-246021825d25")
-		(at 49.25 134.5 90)
+		(at -26.3 168.69875 90)
 		(descr "Diode SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode")
 		(property "Reference" "D40"
 			(at 0 1.83 90)
 			(layer "B.SilkS")
-			(uuid "e22fb217-a2cc-4e00-9ff2-a851f30fe2c7")
+			(uuid "7d77c759-3e6e-4743-ac4a-1aeeaa844753")
 			(effects
 				(font
 					(size 1 1)
@@ -158110,7 +158110,7 @@
 		(property "Value" "D_Small"
 			(at 0 -1.83 90)
 			(layer "B.Fab")
-			(uuid "cbd957dd-1b13-4dd3-b598-2c3ece65c7c2")
+			(uuid "35f93774-1216-47dd-8e2e-18e3ff4cc9d2")
 			(effects
 				(font
 					(size 1 1)
@@ -158123,7 +158123,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1afb7c2d-6aa4-46ce-903b-5682a54eb0ed")
+			(uuid "2d705f2c-da4e-4cd3-a68b-6ccd021a3b9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158136,7 +158136,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ff8bed8f-26fd-4f66-81b3-621a38bc34dd")
+			(uuid "d804109c-2a23-4aa0-956b-f6f88a09178a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158146,7 +158146,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -158160,7 +158160,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -163631,6 +163631,17 @@
 		(layer "Dwgs.User")
 		(uuid "399c6317-f9f7-42a0-8a05-0eaad667b66a")
 	)
+	(gr_rect
+		(start 449.06 79.72267)
+		(end 463.049175 93.69839)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "39f72cf3-da1c-4682-87a3-1fa62bdc717d")
+	)
 	(gr_arc
 		(start 353.127097 60.77502)
 		(mid 352.987628 61.527527)
@@ -165439,6 +165450,17 @@
 		(layer "Dwgs.User")
 		(uuid "7b2f5cc6-2c54-4704-b002-840c02749fbf")
 	)
+	(gr_rect
+		(start 444.000578 98.681451)
+		(end 457.989753 112.657171)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "7b304dbf-18c4-4e68-818b-1a673bf92a8e")
+	)
 	(gr_arc
 		(start 372.105503 102.896522)
 		(mid 372.244983 102.143964)
@@ -165936,6 +165958,17 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "8dea0d36-0aff-4f33-aca4-44b9c9830b10")
+	)
+	(gr_rect
+		(start 443.531173 41.574487)
+		(end 457.520348 55.550207)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "8e04cb77-4be0-43d0-ac72-9b8030740480")
 	)
 	(gr_line
 		(start 176.261863 125.336214)
@@ -166675,6 +166708,17 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "a768da9b-91fa-4842-8c55-d20237111bfc")
+	)
+	(gr_rect
+		(start 456.707994 117.851862)
+		(end 470.697169 131.827582)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "a7c901f8-41aa-42ef-a4b1-96d407ff3cc2")
 	)
 	(gr_line
 		(start 322.334597 92.98259)
@@ -167811,6 +167855,17 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "d132e551-6470-4c00-b1c8-eefe2b3a7153")
+	)
+	(gr_rect
+		(start 451.94 60.67962)
+		(end 465.929175 74.65534)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "d1eff947-d5cd-4f26-af02-9ed75dded28c")
 	)
 	(gr_arc
 		(start 193.621475 130.048439)
@@ -169008,7 +169063,7 @@
 		(pts
 			(xy 225.25 30.25) (xy 225.25 98.25) (xy 212.75 110.75) (xy 212.75 126) (xy 212.75 144.75) (xy 208 149.5)
 			(xy 190 149.5) (xy 186.5 146) (xy 168.5 146) (xy 166.004353 143.5) (xy 133.542662 143.576584) (xy 125 135)
-			(xy 67.625 135) (xy 64.625 141) (xy 49.737494 141) (xy 45.5 136.539483) (xy 45.5 42.75) (xy 58 30.25)
+			(xy 76.5 135) (xy 70.25 148.75) (xy 55.75 148.75) (xy 45.5 137.36844) (xy 45.5 42.75) (xy 58 30.25)
 		)
 		(stroke
 			(width 0.05)
@@ -169039,6 +169094,50 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c8e452a4-96be-403e-b2e1-ae2cd199b0db")
+	)
+	(gr_rect
+		(start -33.328592 39.984765)
+		(end -47.317767 53.960485)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "596791e7-982f-4e2d-a884-7b5328dc57c6")
+	)
+	(gr_rect
+		(start 61.994587 95)
+		(end 48.005412 108.97572)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "95131fc4-73b3-4f40-a6eb-8e4cd4ef9a99")
+	)
+	(gr_rect
+		(start 64.874587 114.04305)
+		(end 50.885412 128.01877)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "b007dccd-5c26-45a9-b1b6-362be332123f")
+	)
+	(gr_rect
+		(start 69.934009 133.001831)
+		(end 55.944834 146.977551)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "d3ed5cdd-72d0-42ac-9878-fead2d1dad07")
 	)
 	(segment
 		(start 195.58 58.488)
